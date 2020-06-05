@@ -1,0 +1,46 @@
+
+Each \acs{uav} is an agent. To create an agent in \acs{ros}, firstly a node is created. 
+A node is an executable that uses \acs{ros} to communicate with other nodes \cite{ros:nodes}. For this small example the name \acs{uav}\_0 is given to the node.
+
+\begin{verbatim}
+   rospy.init_node('UAV_0', anonymous=True)
+\end{verbatim}
+
+The \acs{uav} is able to situate itself using an internal \acs{gps}. 
+Using MAVROS the developer is able to control a \acs{uav}.  
+MAVROS will translate the messages sent from \acs{ros} via MAVLink so the \acs{uav} can “understand” these messages. 
+To send a message the developer must first create a publisher to a specific topic, in this example the \acs{uav} is sent to a specific location.
+
+\begin{verbatim}
+   point_push = rospy.Publisher('/iris_0/mavros/setpoint_raw/local',
+                                       PositionTarget, queue_size=1)
+\end{verbatim}
+
+A publisher is made for the topic ‘/iris\_0/mavros/setpoint\_raw/local’. When publishing to this point the data must be a PositionTarget. 
+Each topic has a defined type of message so that MAVROS can translate this message to MAVLink. Following the same reasoning multiple publishers 
+can be made for more complex movements or actions. Next to creating more publishers a developer also has the ability to create custom topics with custom messages. 
+
+A \acs{uav} can also receive information with a subscriber. Like in a publisher the type of message has to be defined. 
+Finally a callback has to be given as an argument where the data is processed. These callbacks are default run single-threaded. 
+This can cause some performance issues in bigger problems. To solve this problem \acs{ros} provides Multi-threaded spinning and AsyncSpinner \cite{ros:callbacks}. 
+For this short example, processing a local \acs{gps} message, a subscriber is needed with the callback. 
+
+\begin{verbatim}
+   gps_local_sub = rospy.Subscriber('iris_0/mavros/global_position/local',
+                                   Odometry, self.gps_local_callback)
+\end{verbatim}
+
+\newpage
+The subscriber receives messages from the topic ‘iris\_0/mavros/global\_position/local' where the message type is Odometry. 
+The callback, self.gps\_local\_callback , will process the data each time it is updated. 
+
+\begin{verbatim}
+   def gps_local_callback(self, info):
+      pose = info.pose
+      self.x = pose.pose.position.x
+      self.y = pose.pose.position.y
+      self.z  = pose.pose.position.z
+\end{verbatim}
+
+In this case the local position of the \acs{uav} is updated each time the callback is called. Multiple callbacks can be made in a single node to further 
+improve the complexity and possibilities of the agent. 

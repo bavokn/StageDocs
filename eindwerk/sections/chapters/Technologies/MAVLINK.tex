@@ -1,0 +1,19 @@
+
+MAVLink is a very lightweight messaging protocol for communicating with air vechicles. Data streams are sent/published as topics.  
+The messages are defined within \acs{xml} files. MAVLink is very efficient, it does not require additional framing and is very well 
+suited for projects with limited bandwidth. Next to being very efficient, MAVLink is also very reliable. It provides methods for 
+detecting corrupt packages, if any packets have been dropped, and for authenticating packets. A developer is able to control 255 concurrent 
+systems on the network when using MAVLink, with each system having the ability for onboard and offboard communication \cite{mavlink:about}.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.8]{mavlink.png}
+    \caption[MAVLINK logo]{MAVLINK logo\footnotemark.}
+\end{figure}
+
+An example of a mavlink message is a HEARTBEAT message. A vechicle must regularly broadcast their HEARTBEAT to make sure it is still connected. 
+A developer can set the rate at which the message is broadcasted, and how many of these messages may be missed before a vechicle is labbeled missing 
+or disconnected \cite{mavlink:heartbeat}.
+
+Many languages support MAVLink v1, MAVLink 2 and Message Signing. There are also prebuilt MAVLink C libraries available on the MAVLink website.
+

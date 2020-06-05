@@ -1,0 +1,19 @@
+
+The second container, the blackboard system, enables each agent to communicate with eachother.
+The container uses the image \textit{smartuav\_ros\_mavros}. MAVLink, MAVROS and pymavlink are installed in this image. 
+Using these libraries a developer can construct custom messages that can be updated in the blackboard system. 
+The blackboard can then publish these custom messages as a bundled package to a custom topic.
+A problem can be placed inside this package with flags and actions for the agents.
+
+When handling a problem, each agent will take a portion of the problem and iteratively update the blackboard node. 
+For example searching for an object in a large field. Each agent will take a portion of that field and search for the object. 
+When an agent finds the object it updates the blackboard, therefore notifying the other agents that the object is found \cite{blackboard:wiki}.
+
+When implementing a blackboard system in the project it unlocks a whole new set of possibilities. 
+\acs{uav} collision prevention between each other, for example. Next to just GPS information agents are now able to distribute a problem 
+over multiple agents. 
+Communication between agents introduces a multi-agent system.
+
+The limitation of 10 \acp{uav} is in this container. To add information to the blackboard a subsriber has to be made for each \acs{uav}. 
+unfortunatly each substriber callback needs to have its own function hard coded to be thread safe. If this is not done 
+each callback would refer to the same function and it would scramble to blackboard data.

@@ -1,0 +1,120 @@
+% twoside in \documentclass for printing!!!
+\documentclass[12pt,a4paper]{article}
+\usepackage[english]{babel}
+\usepackage[square,numbers]{natbib}
+\usepackage[parfill]{parskip}
+\usepackage[utf8]{inputenc}
+\usepackage{a4wide}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{tocbibind}
+\usepackage{titlesec}
+\usepackage{fancyvrb} 
+\usepackage{outlines}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{acronym}
+
+\bibliographystyle{abbrvnat}
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\graphicspath{{images/}}
+\definecolor{pxlgreen}{RGB}{73,153,20}
+
+\hypersetup{%
+  colorlinks,
+  citecolor=black,
+  filecolor=black,
+  linkcolor=black,
+  urlcolor=black
+}
+% set the footer of the page
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{Bavo Knaeps }
+\cfoot{A flexible \acl{mas} (\acs{mas}) architecture for robots}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% create new command to set a new blank page
+\newcommand\blankpage{\null\thispagestyle{empty}\newpage}
+
+\renewcommand{\thepage}{\roman{page}}
+
+% ceate subsubsub section and set depth for toc
+\newcommand{\subsubsubsection}[1]{\paragraph{#1}\mbox{}\\}
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+
+\begin{document}
+  \input{titlepage}
+
+  \blankpage
+
+  \input{titlepage}
+
+  \pagenumbering{roman}
+
+  \newpage
+  \section*{Acknowledgements}
+  \input{sections/Acknowledgements.tex}
+  \addcontentsline{toc}{section}{Acknowledgements}
+
+  \newpage
+  \section*{Abstract}
+  \input{sections/Abstract.tex}
+  \addcontentsline{toc}{section}{Abstract}
+
+  \newpage
+  \tableofcontents
+
+  \newpage
+  \listoffigures
+
+  \newpage
+  \listoftables
+
+  \newpage
+  \section*{List of Abbreviations}
+  \input{sections/abbreviations.tex}
+
+  \newpage
+  \section*{Introduction} 
+  \input{sections/Introduction.tex}
+  \addcontentsline{toc}{section}{Introduction}
+
+  \pagenumbering{arabic}
+
+  \newpage
+
+  \section{Research topic}
+  \input{sections/ResearchTopic.tex}
+  \newpage
+
+  \section{Traineeship report} 
+  \input{sections/TraineeshipReport.tex}
+
+  \newpage
+  \section{Conclusion}
+  \input{sections/conclusion.tex}
+
+  \newpage
+  \section*{Bibliographical references}
+  \bibliography{bibliography/bib.bib}
+  %with biblatex
+
+  \newpage
+  % \appendix
+  \section{Appendices}
+    \newpage
+    \subsection{Description Appendix A}
+    \newpage
+    \subsection{Description Appendix B}
+    \newpage
+    \subsection{Description Appendix C}
+
+\end{document}

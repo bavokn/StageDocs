@@ -1,0 +1,88 @@
+A docker swarm is a group of virtual or physical machines operating together in a cluster.
+In the cluster, there is a master where other machines can join as workers. This master
+nodes functions as the manager node, with the primary function being assigning tasks to
+worker nodes [2].
+
+In the project, there is a subfolder with scripts to construct a docker swarm. For \acs{ros} nodes
+to be able to communicate with each other, they need to be connected to the same \acs{ros}
+master. When executing the script \textit{0a\_create\_docke\_rswarm.sh} a docker swarm is initialized.
+With the swarm initialized the script automatically constructs an overlay network called
+\textit{my\_ros\_overlay\_network}. This overlay will be passed as network arguments when starting
+a new docker container. These containers will then be attached to the overlay network.
+When the script completed initializing the swarm and the overlay network it will return a
+command to join the swarm.
+
+A container is attached to the network when the network argument is passed with the
+overlay network :
+
+\begin{verbatim}
+    --network=my_ros_overlay_network
+\end{verbatim}
+
+A linked volume is created for the container to be able to access generated files later.
+
+\begin{verbatim}
+    -v `pwd`/../Commands/bin:/home/user/bin \
+\end{verbatim}
+
+On the master node the simulation is started with the script \textit{2\_start\_simulation\_attached.sh}. This will 
+start a container attached to the network. before starting the simulation, the \textit{ROS\_MASTER\_URI} has to be 
+set accordingly. \textit{0c\_generate\_ros\_config\_command.sh} first checks if the worker is the master or not. When 
+a machine is the master the IP address is set to \textit{localhost}.
+
+\begin{verbatim}
+IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
+smartuav_simulation_attached) > ../Commands/bin/set_swarm_settings.bash
+
+echo "export ROS_HOSTNAME=$IP" >> ../Commands/bin/set_swarm_settings.bash 
+echo "export ROS_IP=$IP" >> ../Commands/bin/set_swarm_settings.bash
+echo "export ROS_MASTER_URI=http://localhost:11311" 
+>> ../Commands/bin/set_swarm_settings.bash
+\end{verbatim}
+
+These variables are saved in a file \textit{set\_swarm\_settings.bash} and can now be sourced from inside the container. 
+\newpage
+
+To enable workers to communicate with the \acs{ros} master on the master node of the swarm, the overlay \acs{ip} address 
+has to be known. The script \textit{0b\_generate\_overlay.sh}, on the master node
+(outside of running container), will return the 
+\acs{ip} address of the running container. 
+
+On a worker machine, \textit{0c\_generate\_ros\_config\_command.sh} first checks if the machine is the host or not. When it 
+is not the script will need an input; the \acs{ip}. Instead of setting the IP to localhost, the script will now generate
+the \textit{ROS\_MASTER\_URI} correctly for each worker.
+
+\begin{verbatim}
+    read -p "IP on overlay network of the master container: " master_ip
+    read -p "Name of the running container: " running_container
+
+    readarray -d _ -t strarr <<<"$running_container"
+
+    dir=${strarr[1]}
+    #empty out settings
+    echo "" > ../src/$dir/Commands/bin/set_swarm_settings.bash 
+
+    IP=$(docker inspect -f 
+    '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
+    $running_container)
+    
+    echo "export ROS_HOSTNAME=$IP" 
+    >> ../src/$dir/Commands/bin/set_swarm_settings.bash 
+
+    echo "export ROS_IP=$IP" 
+    >> ../src/$dir/Commands/bin/set_swarm_settings.bash  
+
+    echo "export ROS_MASTER_URI=http://$master_ip:11311/" 
+    >> ../src/$dir/Commands/bin/set_swarm_settings.bash
+\end{verbatim}
+
+A worker needs to the \acs{ip} of the master container running the simulation and the name of the current running container. 
+The current running container name is needed to get the \acs{ip} of that container to set the variable \textit{ROS\_IP}. If this is not done 
+the subribers would not be able to receive messages from this node.
+The script will then automatically place the \textit{set\_swarm\_settings.bash} in the correct linked volume folder. This file can now be sourced
+from inside the container.
+
+To test if each worker is connected to the \acs{ros} master the simulation has to be 
+started with \textit{1\_start\_simulation\_attached.sh}. This will start Gazebo, Rviz, and roscore. If the command 
+\textit{rostopic list} from inside each worker container returns the topics, the worker is connected to the master 
+and is able to communicate with it.

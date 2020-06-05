@@ -1,0 +1,36 @@
+\def\student{Bavo Knaeps}
+\def\bedrijfspromotor{Tim Dupont}
+\def\hogeschoolpromotor{Tim Dupont}
+\def\stagebedrijf{Expertisecentrum PXL Smart ICT}
+
+\documentclass[a4paper]{article}
+\usepackage{./PXLStageportfolio}
+
+\begin{document}
+  \input{titlepage}
+
+  \begingroup
+    \hypersetup{linkcolor=black}  % Black links in table of contents
+    \tableofcontents
+  \endgroup
+
+  \pagenumbering{arabic}  % Start page numbering
+
+  \section{Informatiefiche}
+  \input{sections/informatiefiche}
+
+  \section{Plan van aanpak}
+  \input{sections/planvanaanpak}
+
+  \subsection{Tijdsplanning}
+  \input{sections/tijdsplanning}
+
+  \subsection{Bronnen}
+  \input{sections/bronnen}
+
+  \section{Rapportage}
+  \input{sections/rapportage.tex}
+
+  \section{Terugkoppelingsformulieren}
+  \input{sections/terugkoppelingsformulieren}
+\end{document}

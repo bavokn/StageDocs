@@ -1,0 +1,51 @@
+\BOOKMARK [1][-]{Doc-Start}{Acknowledgements}{}% 1
+\BOOKMARK [1][-]{Doc-Start}{Abstract}{}% 2
+\BOOKMARK [1][-]{Doc-Start}{Contents}{}% 3
+\BOOKMARK [1][-]{Doc-Start}{List of Figures}{}% 4
+\BOOKMARK [1][-]{Doc-Start}{List of Tables}{}% 5
+\BOOKMARK [1][-]{Doc-Start}{Introduction}{}% 6
+\BOOKMARK [1][-]{section.1}{Research topic}{}% 7
+\BOOKMARK [2][-]{subsection.1.1}{Research}{section.1}% 8
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Problem}{subsection.1.1}% 9
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Question}{subsection.1.1}% 10
+\BOOKMARK [3][-]{subsubsection.1.1.3}{Sub-questions}{subsection.1.1}% 11
+\BOOKMARK [4][-]{paragraph.1.1.3.1}{What is an Agent?}{subsubsection.1.1.3}% 12
+\BOOKMARK [4][-]{paragraph.1.1.3.2}{What is a MAS?}{subsubsection.1.1.3}% 13
+\BOOKMARK [4][-]{paragraph.1.1.3.3}{What is a MAS architecture?}{subsubsection.1.1.3}% 14
+\BOOKMARK [4][-]{paragraph.1.1.3.4}{What is a blackboard communication system?}{subsubsection.1.1.3}% 15
+\BOOKMARK [4][-]{paragraph.1.1.3.5}{What are the advantages of a MAS}{subsubsection.1.1.3}% 16
+\BOOKMARK [4][-]{paragraph.1.1.3.6}{What are the necessary/core components of a MAS architecture?}{subsubsection.1.1.3}% 17
+\BOOKMARK [4][-]{paragraph.1.1.3.7}{Are there usable off-the-shelf rapid robot/UAV prototyping MAS architectures?}{subsubsection.1.1.3}% 18
+\BOOKMARK [4][-]{paragraph.1.1.3.8}{What are the pros and cons of off-the-shelve rapid robot/UAV prototyping MAS architectures?}{subsubsection.1.1.3}% 19
+\BOOKMARK [3][-]{subsubsection.1.1.4}{Research method}{subsection.1.1}% 20
+\BOOKMARK [4][-]{paragraph.1.1.4.1}{Experiments}{subsubsection.1.1.4}% 21
+\BOOKMARK [4][-]{paragraph.1.1.4.2}{Observing other projects}{subsubsection.1.1.4}% 22
+\BOOKMARK [1][-]{section.2}{Traineeship report}{}% 23
+\BOOKMARK [2][-]{subsection.2.1}{About the company}{section.2}% 24
+\BOOKMARK [2][-]{subsection.2.2}{Technologies}{section.2}% 25
+\BOOKMARK [3][-]{subsubsection.2.2.1}{ROS}{subsection.2.2}% 26
+\BOOKMARK [3][-]{subsubsection.2.2.2}{MAVLink}{subsection.2.2}% 27
+\BOOKMARK [3][-]{subsubsection.2.2.3}{MAVROS}{subsection.2.2}% 28
+\BOOKMARK [3][-]{subsubsection.2.2.4}{PX4}{subsection.2.2}% 29
+\BOOKMARK [3][-]{subsubsection.2.2.5}{Docker}{subsection.2.2}% 30
+\BOOKMARK [3][-]{subsubsection.2.2.6}{Gazebo}{subsection.2.2}% 31
+\BOOKMARK [3][-]{subsubsection.2.2.7}{Python}{subsection.2.2}% 32
+\BOOKMARK [2][-]{subsection.2.3}{Implementation}{section.2}% 33
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Iris drone}{subsection.2.3}% 34
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Agent implementation}{subsection.2.3}% 35
+\BOOKMARK [3][-]{subsubsection.2.3.3}{Simulation}{subsection.2.3}% 36
+\BOOKMARK [3][-]{subsubsection.2.3.4}{The blackboard system}{subsection.2.3}% 37
+\BOOKMARK [3][-]{subsubsection.2.3.5}{Object detection}{subsection.2.3}% 38
+\BOOKMARK [3][-]{subsubsection.2.3.6}{Controlling the agents}{subsection.2.3}% 39
+\BOOKMARK [3][-]{subsubsection.2.3.7}{Docker Swarm}{subsection.2.3}% 40
+\BOOKMARK [2][-]{subsection.2.4}{Future Work}{section.2}% 41
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Multithreading object detection}{subsection.2.4}% 42
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Optimizing docker swarm}{subsection.2.4}% 43
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Adding other components}{subsection.2.4}% 44
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Implementing a decision making model}{subsection.2.4}% 45
+\BOOKMARK [1][-]{section.3}{Conclusion}{}% 46
+\BOOKMARK [1][-]{section.3}{Bibliography}{}% 47
+\BOOKMARK [1][-]{section.4}{Appendices}{}% 48
+\BOOKMARK [2][-]{subsection.4.1}{Description Appendix A}{section.4}% 49
+\BOOKMARK [2][-]{subsection.4.2}{Description Appendix B}{section.4}% 50
+\BOOKMARK [2][-]{subsection.4.3}{Description Appendix C}{section.4}% 51

@@ -1,0 +1,19 @@
+
+Docker is a set of platforms as a service product that uses \acs{os}-level virtualization to deliver software in packages 
+called containers. Containers are isolated from one another and bundle their own software, libraries, and configuration files.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.4]{docker.png}
+    \caption[Docker logo]{Docker logo\footnotemark.}
+\end{figure}
+
+Containers use shared operating systems. This means that they are much more efficient than virtual machines. 
+Instead of virtualizing hardware, containers rest on top of a single Linux instance so they leave most of the virtual machine behind. 
+Another great feature of docker is that it is great for Continuous Integration/Continuous Deployment (CI/CD). 
+This methodology comes from DevOps. 
+Developers can share and integrate code into a shared repository early and often. Offering quick and efficient deployment \cite{docker:article}.
+
+Using docker in combination with \acs{ros} gives a team the ability to easily share code and update dependencies. 
+Using bash scripts new developers can easily clone the project and build their own docker containers. Using these containers 
+a developer can then start their own project without worrying about the dependencies because these are all installed in the container images.

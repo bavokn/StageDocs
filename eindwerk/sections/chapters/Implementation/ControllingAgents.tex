@@ -1,0 +1,17 @@
+The last container, the controller, is responsible for starting the multi-agent system. Each \acs{uav} 
+will run as a parallel process in the simulation. 
+To start a \acs{uav}, a specific pattern of commands has to be followed. Before starting a connection, 
+a heartbeat must be made with each \acs{uav} 
+that must be maintained throughout its flight. When a connection is lost, that specific \acs{uav} will 
+stop its current action and land on its home point.
+
+When a connection is established, a developer is able to arm the \acs{uav}. It is possible to visually 
+confirm that a \acs{uav} is armed when its rotors are spinning. 
+After arming a home point has to be set; this is a safe place where the \acs{uav} can land in case of 
+connection loss. When a \acs{uav} is armed and has a 
+home point, it is ready for further instructions. These agents fly autonomously. For a \acs{uav} to fly without 
+user input it has to be put into the “OFFBOARD” mode. 
+Finally, when a \acs{uav} is in this mode it can be added to a team, coalition, or hologenic hierarchy. 
+Depending on the hierarchy a \acs{uav} will take on an action 
+and help to try and solve the given problem.
+

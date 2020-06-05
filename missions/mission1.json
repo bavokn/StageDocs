@@ -1,0 +1,75 @@
+{
+    "mission": {
+        "items": [{
+                "frame": 3,
+                "command": 22,
+                "autoContinue": true,
+                "params": [
+                    0,
+                    0,
+                    0,
+                    null,
+                    47.3973925,
+                    8.5459594,
+                    8
+                ]
+            },
+            {
+                "frame": 3,
+                "command": 16,
+                "autoContinue": true,
+                "params": [
+                    0,
+                    0,
+                    0,
+                    135,
+                    47.3974062,
+                    8.5464973,
+                    8
+                ]
+            },
+            {
+                "frame": 3,
+                "command": 16,
+                "autoContinue": true,
+                "params": [
+                    0,
+                    0,
+                    0,
+                    135,
+                    47.3973126,
+                    8.5465882,
+                    8
+                ]
+            },
+            {
+                "frame": 3,
+                "command": 16,
+                "autoContinue": true,
+                "params": [
+                    0,
+                    0,
+                    0,
+                    135,
+                    47.3970992,
+                    8.5465425,
+                    8
+                ]
+            },
+            {
+                "frame": 3,
+                "command": 16,
+                "autoContinue": true,
+                "params": [
+                    0,
+                    0,
+                    0,
+                    90,
+                    47.3970992,
+                    8.5465425,
+                    8
+                ]
+            }
+        ]
+    }
+}

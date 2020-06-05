@@ -1,0 +1,58 @@
+\usepackage{a4wide}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage[utf8]{inputenc}
+\usepackage[dutch]{babel}
+\usepackage{scrextend}
+\usepackage{outlines}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	PARAGRAPHS
+%----------------------------------------------------------------------------------------
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{1\baselineskip}
+
+%----------------------------------------------------------------------------------------
+%	COLORS
+%----------------------------------------------------------------------------------------
+
+\usepackage{xcolor} % Required for specifying custom colors
+
+\definecolor{pxlgreen}{RGB}{73,153,20}
+
+%----------------------------------------------------------------------------------------
+%	SECTIONS
+%----------------------------------------------------------------------------------------
+
+\usepackage{sectsty}
+
+\sectionfont{\clearpage} % Start each section on a new page
+
+%----------------------------------------------------------------------------------------
+%	LINKS
+%----------------------------------------------------------------------------------------
+
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linktoc=all,
+  linkcolor=blue
+}
+
+%----------------------------------------------------------------------------------------
+%	FOOTER
+%----------------------------------------------------------------------------------------
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{PXL-Digital}
+\cfoot{Stageportfolio}
+\rfoot{\thepage}

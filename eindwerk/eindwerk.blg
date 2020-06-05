@@ -1,0 +1,82 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: eindwerk.aux
+The style file: abbrvnat.bst
+Database file #1: bibliography/bib.bib
+Warning--entry type for "mavlink:about" isn't style-file defined
+--line 7 of file bibliography/bib.bib
+Warning--entry type for "mavros:wiki" isn't style-file defined
+--line 13 of file bibliography/bib.bib
+Warning--entry type for "px4:docs" isn't style-file defined
+--line 19 of file bibliography/bib.bib
+Warning--entry type for "docker:article" isn't style-file defined
+--line 25 of file bibliography/bib.bib
+Warning--entry type for "gazebo:org" isn't style-file defined
+--line 31 of file bibliography/bib.bib
+Warning--entry type for "python:wiki" isn't style-file defined
+--line 44 of file bibliography/bib.bib
+Warning--entry type for "arducopter:iris" isn't style-file defined
+--line 50 of file bibliography/bib.bib
+Warning--entry type for "ros:nodes" isn't style-file defined
+--line 72 of file bibliography/bib.bib
+Warning--entry type for "ros:node" isn't style-file defined
+--line 78 of file bibliography/bib.bib
+Warning--entry type for "ros:callbacks" isn't style-file defined
+--line 84 of file bibliography/bib.bib
+Warning--entry type for "ros:topic" isn't style-file defined
+--line 89 of file bibliography/bib.bib
+Warning--entry type for "sim:issue" isn't style-file defined
+--line 95 of file bibliography/bib.bib
+Warning--entry type for "blackboard:wiki" isn't style-file defined
+--line 101 of file bibliography/bib.bib
+Warning--entry type for "ros:rviz" isn't style-file defined
+--line 115 of file bibliography/bib.bib
+Warning--entry type for "mavlink:heartbeat" isn't style-file defined
+--line 120 of file bibliography/bib.bib
+Warning--entry type for "ros:micros_mars_task_alloc" isn't style-file defined
+--line 126 of file bibliography/bib.bib
+Warning--to sort, need author or key in ros:about
+Warning--empty year in ros:about
+Warning--empty year in ros:rviz
+You've used 21 entries,
+            2773 wiz_defined-function locations,
+            664 strings with 6133 characters,
+and the built_in function-call counts, 6012 in all, are:
+= -- 478
+> -- 200
+< -- 20
++ -- 84
+- -- 60
+* -- 330
+:= -- 892
+add.period$ -- 46
+call.type$ -- 21
+change.case$ -- 63
+chr.to.int$ -- 18
+cite$ -- 46
+duplicate$ -- 335
+empty$ -- 676
+format.name$ -- 80
+if$ -- 1279
+int.to.chr$ -- 4
+int.to.str$ -- 1
+missing$ -- 8
+newline$ -- 96
+num.names$ -- 80
+pop$ -- 254
+preamble$ -- 1
+purify$ -- 62
+quote$ -- 0
+skip$ -- 311
+stack$ -- 0
+substring$ -- 43
+swap$ -- 27
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 211
+warning$ -- 3
+while$ -- 60
+width$ -- 0
+write$ -- 223
+(There were 19 warnings)

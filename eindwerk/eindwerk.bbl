@@ -1,0 +1,101 @@
+\begin{thebibliography}{21}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[ros()]{ros:about}
+Ros.
+\newblock URL \url{https://www.ros.org/about-ros/}.
+
+\bibitem[GAZEBO(05/05/2020)]{gazebo:org}
+GAZEBO, 05/05/2020.
+\newblock URL \url{http://gazebosim.org/}.
+
+\bibitem[Lin~Padgham(2005)]{AI:guide}
+M.~W. Lin~Padgham.
+\newblock \emph{Developing Intelligent Agent Systems: A Practical Guide}.
+\newblock John Wiley And Sons, 2005.
+
+\bibitem[MAVLink(31/04/2020)]{mavlink:about}
+MAVLink, 31/04/2020.
+\newblock URL \url{https://mavlink.io/en/}.
+
+\bibitem[mavlink.io(17/04/2020)]{mavlink:heartbeat}
+mavlink.io, 17/04/2020.
+\newblock URL \url{https://mavlink.io/en/services/heartbeat.html}.
+
+\bibitem[MAVROS(31/04/2020)]{mavros:wiki}
+MAVROS, 31/04/2020.
+\newblock URL \url{http://wiki.ros.org/mavros}.
+
+\bibitem[P.~Stone(2000)]{mas:def}
+M.~V. P.~Stone.
+\newblock \emph{Multiagent systems: A survey from a machine learning
+  perspective}.
+\newblock Autonomous Robots, 2000.
+
+\bibitem[PX4(31/04/2020)]{px4:docs}
+PX4, 31/04/2020.
+\newblock URL \url{https://docs.px4.io/master/en/index.html}.
+
+\bibitem[ROS(20/04/2020)]{ros:micros_mars_task_alloc}
+ROS, 20/04/2020.
+\newblock URL \url{http://wiki.ros.org/micros_mars_task_alloc}.
+
+\bibitem[S.~Russel(1995)]{AI:agent}
+P.~N. S.~Russel.
+\newblock \emph{“Artificial intelligence – A modern approach}.
+\newblock Prentice Hall, 1995.
+
+\bibitem[Stefan~Poslad(2000?)]{FIPA-OS}
+R.~H. Stefan~Poslad, Phil~Buckle.
+\newblock \emph{The FIPA-OS agent platform: Open Source for OpenStandards}.
+\newblock Imperial College of Science, Technology and Medicine, Exhibition
+  Road, London, SW7 2BZ, 2000?
+
+\bibitem[todo(05/05/2020)]{python:wiki}
+todo, 05/05/2020.
+\newblock URL
+  \url{https://en.wikipedia.org/wiki/Python_(programming_language)}.
+
+\bibitem[todo(20/03/2020)]{blackboard:wiki}
+todo, 20/03/2020.
+\newblock URL \url{https://en.wikipedia.org/wiki/Blackboard\_system}.
+
+\bibitem[todo(31/05/2020{\natexlab{a}})]{arducopter:iris}
+todo, 31/05/2020{\natexlab{a}}.
+\newblock URL \url{http://www.arducopter.co.uk/iris-quadcopter-uav.html)}.
+
+\bibitem[todo(31/05/2020{\natexlab{b}})]{sim:issue}
+todo, 31/05/2020{\natexlab{b}}.
+\newblock URL \url{https://github.com/PX4/Firmware/issues/14436}.
+
+\bibitem[Vaughan-Nichols(31/04/2020)]{docker:article}
+S.~J. Vaughan-Nichols, 31/04/2020.
+\newblock URL
+  \url{https://www.zdnet.com/article/what-is-docker-and-why-is-it-so-darn-popular/}.
+
+\bibitem[wiki()]{ros:rviz}
+R.~wiki.
+\newblock URL \url{http://wiki.ros.org/rviz}.
+
+\bibitem[wiki(20/03/2020{\natexlab{a}})]{ros:node}
+R.~wiki, 20/03/2020{\natexlab{a}}.
+\newblock URL \url{http://wiki.ros.org/Nodes}.
+
+\bibitem[wiki(20/03/2020{\natexlab{b}})]{ros:topic}
+R.~wiki, 20/03/2020{\natexlab{b}}.
+\newblock URL \url{http://wiki.ros.org/Topics}.
+
+\bibitem[wiki(31/05/2020{\natexlab{a}})]{ros:callbacks}
+R.~wiki, 31/05/2020{\natexlab{a}}.
+\newblock URL
+  \url{http://wiki.ros.org/roscpp/Overview/Callbacks%20and%20Spinning}.
+
+\bibitem[wiki(31/05/2020{\natexlab{b}})]{ros:nodes}
+R.~wiki, 31/05/2020{\natexlab{b}}.
+\newblock URL \url{http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes}.
+
+\end{thebibliography}

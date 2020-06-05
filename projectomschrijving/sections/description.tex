@@ -1,0 +1,14 @@
+The center of expertise PXL Smart ICT, part of the PXL University of Applied Sciences and Arts research department, has an ongoing project for enabling IT companies to implement unmanned aerial vehicle (UAV) projects via rapid robot prototyping. \hl{This internship is an integral part of this research project.}
+
+One of the goals of this \hl{internship project} is updating and fine-tuning an existing Smart UAV software architecture. Another objective is \hl{researching} the realm of simultaneous localization and mapping (SLAM) algorithms. Combining previous goals into a showcase where a UAV uses a SLAM algorithm to flying autonomously in an unknown environment.
+
+A SLAM algorithm behaves the same way a human being would when dropped in an unknown environment. A human being opens her or his eyes and looks around in search of reference points in their environment. These reference points are used as landmarks for their localization. However, a UAV uses sensors, instead of senses, to get information \hl{about} its surroundings and uses this to search for reference points. When flying, it can estimate its movement based on the movement of these landmarks.
+
+The \hl{internship} project uses a \hl{combination of diverse} technologies. \hl{As a layer between the hardware of the robot and the code, Robotic Operating System (ROS) is used. ROS is an open-source set of software libraries and tools. Sending commands to the UAV is done by MAVROS, a ROS implementation of Micro Air Vehicle Link (MAVLink). This is a lightweight messaging protocol for communicating with drones.} A PX4 autopilot receives these commands and translates them to actual actions the UAV has to execute. For safety and testing purposes, the entire \hl{internship} project is developed in an open-source 3D robotics simulator, Gazebo. To make the system flexible, modular and consistent a multi-container docker environment is used.
+
+% Sources
+% https://www.ros.org/
+% https://mavlink.io/en/
+% https://px4.io/
+% https://opensource.com/resources/what-docker
+% http://gazebosim.org/

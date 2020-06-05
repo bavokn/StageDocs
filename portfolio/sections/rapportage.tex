@@ -1,0 +1,534 @@
+\subsection{Wekelijkse rapportage}
+  % Deze tabel wordt tijdens de stageperiode voor iedere week ingevuld. Met persoonlijke reflectie bedoelen we: Wat ging goed, wat ging minder goed, wat heb je geleerd, in welke mate heeft de opleiding je kunnen helpen bij het uitvoeren van de opdracht. Welke waren je valkuilen? Wat is de meerwaarde voor het bedrijf? Wat is de meerwaarde voor het team (stageteam en bedrijfsteam)? Welke softskills heb je bijgeleerd? Wat zou je anders doen als je de stage(week) opnieuw zou beginnen? Wat zou beter gekund hebben? Welke lessen heb je geleerd ? Op welke punten ga je je de volgende keer focussen en hoe ga je dit aanpakken?
+
+  \begin{tabularx}{\textwidth}{| l | X |}
+    \hline
+    Datum: & 24/02/2020 - 28/02/2020\\
+    \hline
+    Geplande taken: &
+    \begin{outline}
+      \1 installatie workstations
+      \1 opzetten dockerfiles
+      \1 simulatie runnen met meerdere drones
+      \1 klaarzetten voor implementaties
+      \1 onderzoek voeren
+    \end{outline}\\
+    \hline
+    Stand van zaken: & 
+    \begin{outline}
+      \1 dockerfiles + simumatie werken
+      \1 meerdere drones tegelijk aansturen
+    \end{outline}\\
+    \hline
+    Problemen en knelpunten: & 
+    \begin{outline}
+      \1 generieke oplossing zoeken voor implementatie
+      \1 zoeken naar generieke oplossing om resulaten te vergelijken
+      \1 pycharm werkt niet
+    \end{outline}
+    \\
+    \hline
+    Oplossingen: & VS code aan het gebruiken.\\
+    \hline
+    Persoonlijke reflectie: & de installatie verliep vlot dankzij Borcherd en Vic. Paar Roadblocks al overkomen \\
+    \hline
+    Planning volgende week: & de knelpunten oplossen\\
+    \hline
+  \end{tabularx}
+
+  \newpage
+  
+  \begin{tabularx}{\textwidth}{| l | X |}
+    \hline
+    Datum: & 02/03/2020 - 06/03/2020\\
+    \hline
+    Geplande taken: &
+    \begin{outline}
+      \1 multithreading agents
+      \1 methodes uitschrijven voor oppervlakte verkkening
+      \1 controller voor makkelijke aansturing drones
+      \1 blackboard node opzetten
+      \1 custom messages
+      \1 classe voor agents
+      \1 hologenic structure
+    \end{outline}\\
+    \hline
+    Stand van zaken: & 
+    \begin{outline}
+      \1 classe agents
+      \1 controller werkt
+      \1 methodes zijn uitgeschreven
+      \1 blackboard node werkt
+      \1 hologenic structure
+    \end{outline}\\
+    \hline
+    Problemen en knelpunten: & 
+    \begin{outline}
+      \1 aansturing van de drones
+      \1 generieke oplossing voor een makkelijke controller
+      \1 uitschrijven methodes om oppervlaktes te verkennen
+      \1 te grote foutmarge op global gps
+      \1 aanpassen van gps coordinates van global naar local
+    \end{outline}
+    \\
+    \hline
+    Oplossingen: & 
+    \begin{outline}
+      \1 Issues gepost en oplossing gekregen
+      \1 multithreading opzoeken voor controller
+    \end{outline}\\
+    \hline
+    Persoonlijke reflectie: & Te lang blijven hangen op domme fout bij de aansturing van de drones \\
+    \hline
+    Planning volgende week: & drones zelf laten vliegen, hard gecodeerd op een gebied\\
+    \hline
+  \end{tabularx}
+
+\newpage 
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 09/03/2020 - 13/03/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 drone paden laten afvliegen
+    \1 methodes uittesten van agent om zelf punten te genereren
+    \1 camera implementatie
+    \1 snelheid van drones aanpassen
+    \1 slam implementatie
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 slam werkt maar overlapt → geen translatie op odom topic
+    \1 UAVs vliegen op rustige snelheid
+    \1 UAVs genereren zelf punten om af te vliegen
+    \1 communicatie tussen agents, enkel coordinaten voorlopig
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 aanpassen snelheid drones
+    \1 communicatie tussen drones
+    \1 zelf genereren van punten op map voor elke drone apart
+    \1 drone die niks deed op publishen van een punt
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 bug fix in de code
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & Goede omvorming van code, onderzoek verliep vlot. Bronnen niet goed genoeg bijgehouden \\
+  \hline
+  Planning volgende week: & aanpassen algoritme zelf te vliegen. Meer gebieden dan drones zodat drones communiceren welk gebied verkend moet worden\\
+  \hline
+\end{tabularx}
+
+\newpage 
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 16/03/2020 - 20/03/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 ombouwen vliegalogritme
+    \1 alle communicatie via blackboard node
+    \1 drones communiceren om gebied te verkennen, geen overlap
+    \1 custom messages met flags voor acties op gebieden
+    \1 rtab implementeren
+    \1 van xarco files naar sdf files
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 communicatie via blackboard node
+    \1 dynamische toekenning gebieden aan drones
+    \1 custom messages met flags voor acties op gebieden
+    \1 van xarco files naar sdf files
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 rtab implementeren
+    \1 van xarco files naar sdf files -> kan geen meerdere drones aansturen
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 terug naar xarco files
+    \1 issue gepost maar geen reactie
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & Veel te lang blijven hangen op bug in sdf files, issue gepost maar geen reactie \\
+  \hline
+  Planning volgende week: & object detection met opencv\\
+  \hline
+\end{tabularx}
+
+\newpage 
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 23/03/2020 - 27/03/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 projectomschrijving feedback verwerken
+    \1 protfolio verder aanvullen
+    \1 opencv object detection (mensen en autos)
+    \1 onderzoek betere object detectors ( huidige : HOG, opencv haar)
+    \1 bugfixes (opencv window crash)
+    \1 nieuwe rtab map implementatie 
+    \1 teamcontroller
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 Opencv geïmplementeerd
+    \1 window crash na 1ste keer runnen controller → volledige restart voor nog eens te runnen ?
+    \1 sdf terug naar xarco files voor de simulatie
+    \1 translatie error op de rtab algoritme → mappen overlappen niet van verschillende drones
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 translatie error op de rtab algoritme
+    \1 xml files zijn niet goed
+    \1 teamcontroller werkt nog niet , heeft veel userinput nodig
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 andere classifier zoeken / color detection
+    \1 research naar smash
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & Het schrijven kan veel beter \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 object detection verfijnen
+    \1 bugfixes
+    \1 teamcontroller implementatie
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 30/03/2020 - 03/04/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 opencv object detection, haarclassifier, HOG experimenten
+    \1 YoloV3, tinyYoloV3
+    \1 aanpassen dokerfiles
+    \1 extra flags op gebieden voor meerdere mogelijke acties
+    \1 tiny-yoloV3 optimizen
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 opencv object detection, haarclassifier, HOG werken niet geweldig
+    \1 YoloV3 te zwaar om te runnen 
+    \1 tinyYoloV3 werkt
+    \1 extra flags op gebieden voor meerdere mogelijke acties
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 tiny-yolo classified niet geweldig
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 nog een andere classifier zoeken ?
+    \1 stap terug zetten en verder kijken naar communicatie
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & veel bijgeleerd over YoloV3, toch wel content over de vooruitgang van de code \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 gedurdende vakantie uitrusten (aan I-talent werken)
+    \1 volgende werkweek projectomschrijving feedback van taal verwerken
+    \1 paper schrijven + latex project aanmaken
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 20/04/2020 - 24/04/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 Aan paper werken
+    \1 taal feedback verwerken projectomschrijving
+    \1 uitschrijven showcase
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 eerste draft paper is af
+    \1 paper staat in latex project 
+    \1 taalfeedback verwerkt voor projectomschrijving
+    \1 showcase uitgeschreven , nu nog programmeren 
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 paper schrijven was even puffen
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 tanden bijten
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & aan de paper werken was vermoeiender dan verwacht \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 showcase programmeren
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 27/04/2020 - 01/05/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 final touches paper
+    \1 taalversie afwerken 
+    \1 showcases programmeren
+    \1 vliegen op velocity 
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 taalversie paper is af
+    \1 search functie bugs  
+    \1 grote uitlijning voor de showcases ligt er 
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 veel bugs geschreven en terug gevonden. Code was niet generiek genoeg.
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 Veel opzoekwerk en nieuwe codeertechnieken gebruiken om de code te verbeteren.
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & De oude code verbteren verloopt wat trager omdat het heet generiek moet zijn. \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 ombouwen naar vliegen op velocity
+    \1 afwerken search functie
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 04/05/2020 - 08/05/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 showcase afmaken 
+    \1 vliegen op velocity ipv points
+    \1 upgrade yolo 
+    \1 coalitions uitbouwen
+    \1 blackboard node upgrade voor object detection sharing knowledge 
+    \1 object tracking
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 teams showcase is af
+    \1 vliegen op velocity werkt
+    \1 yolov4 werkt maar op CPU
+    \1 coalitions werken nog niet
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 OpenCV bug met yolo, detectie werkt enkel op CPU, dit is niet performant genoeg. Er staat ook een delay op (gevolge van performantie)
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 onderzoek naar OpenCV builden van source
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: &  Goede vooruitgang geboekt. Code is generieker en makkelijker uitbreiden \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 Coalitions verder uitbouwen 
+    \1 aan paper schrijven, feedback verwerken
+    \1 data plotten
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 11/05/2020 - 15/05/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 Docker containers aanpassen
+    \1 Collision detection met andere drones
+    \1 smoothing van het vliegen 
+    \1 live plotting van data
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 Live plotten van data werkt
+    \1 collision detection op andere thread
+    \1 paper feedback verwerkt
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 Live plotten van data zorgt voor interferance met het systeem
+    \1 Collision detection is een zware thread, manier zoeken om dit wat te verlichten.
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 Plotten van data naderhand laten gebeuren, met rosbag of ander medium.
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & Goede vooruitgang paper geboekt, veel nieuwe kennis opgedaan \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 coalition afwerken en testen 
+    \1 bespreken paper
+    \1 blackboard node updaten voor generieke manier toevoegen van taken voor agents 
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 18/05/2020 - 22/05/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 coalition afwerken 
+    \1 coalition tests 
+    \1 code refactoring 
+    \1 bug fixes
+    \1 blackboard node updaten voor generieke manier toevoegen van taken voor agents
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 blackboard node updaten voor generieke manier toevoegen van taken voor agents werkt
+    \1 coalition af, niet getest
+    \1 veel code herschreven
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 coalition nog niet fatsoenlijk kunnen testen vanwege andere bugs
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 code refactoring
+    \1 bug fixes
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: &   veel bugs gevonden, nieuwe feature (generic task adding) is goed gelukt\\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 coalition tests
+    \1 performance tests
+    \1 nieuwe docker image voor object detection on GPU
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+\begin{tabularx}{\textwidth}{| l | X |}
+  \hline
+  Datum: & 25/05/2020 - 29/05/2020\\
+  \hline
+  Geplande taken: &
+  \begin{outline}
+    \1 nieuwe docker image voor object detection on GPU
+    \1 performance tests 
+    \1 coalition tests 
+    \1 team tests 
+    \1 hologenic tests
+  \end{outline}\\
+  \hline
+  Stand van zaken: & 
+  \begin{outline}
+    \1 nieuwe docker image aangemaakt 
+    \1 OpenCV 4.3 van source gebuild 
+    \1 hologenic test met 10 drones
+  \end{outline}\\
+  \hline
+  Problemen en knelpunten: & 
+  \begin{outline}
+    \1 bug in openCV gevonden
+    \1 met 10 drones moet de stepsize worden aangepast van de physics in de wereld, dit zorgt voor 'jiggling' drones 
+  \end{outline}
+  \\
+  \hline
+  Oplossingen: & 
+  \begin{outline}
+    \1 minder drones
+    \1 over meerdere computers programma runnen
+    \1 issue posten naar openCV
+  \end{outline}\\
+  \hline
+  Persoonlijke reflectie: & Heel veel onderzoek gedaan naar openCV en heel veel bijgeleerd over builden van source. \\
+  \hline
+  Planning volgende week: & 
+  \begin{outline}
+    \1 afwerken tests
+    \1 opnemen demos
+    \1 data plots opslaan
+  \end{outline}\\
+  \hline
+\end{tabularx}
+
+
+\newpage
+\subsection{Eindrapportage}
+
+
+
+  % De eindrapportage wordt aan het einde van de stageperiode ingevuld. Hierin worden de volgende punten aangehaald:
+    % • Opgedane ervaring
+    % • Verloop van het project
+    % • Gesignaleerde problemen
+    % • Gekozen oplossing
+    % • Persoonlijke reflectie
+    % • Eindbesluit (het eindresultaat)
+  % Dit is uiteindelijk ook je besluitvorming voor je eindwerk.

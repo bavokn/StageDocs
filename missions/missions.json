@@ -1,0 +1,101 @@
+{"mission": {
+    "items": [{
+            "frame": 3,
+            "command": 16,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                null,
+                47.3973266,
+                8.5459142,
+                8
+            ]
+        },
+        {
+            "frame": 3,
+            "command": 16,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                40,
+                47.3973052,
+                8.5471817,
+                8
+            ]
+        },
+        {
+            "frame": 3,
+            "command": 16,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                null,
+                47.3960053,
+                8.5471978,
+                8
+            ]
+        },{
+            "frame": 3,
+            "command": 16,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                null,
+                47.3960131,
+                8.5453598,
+                8
+            ]
+        },
+        {
+            "frame": 3,
+            "command": 16,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                null,
+                47.3973249,
+                8.5453511,
+                8
+            ]
+        },
+        {
+            "frame": 3,
+            "command": 16,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                null,
+                47.3973266,
+                8.5459142,
+                8
+            ]
+        },
+        {
+            "frame": 3,
+            "command": 21,
+            "autoContinue": true,
+            "params": [
+                0,
+                0,
+                0,
+                null,
+                47.3973249,
+                8.5453511,
+                0
+            ]
+        }
+    ]
+}
+}

@@ -1,0 +1,26 @@
+A single drone is not able to accomplish much on a large scale. Compare this to a bee trying to harvest a 
+field of flowers, an impossible task for just a single bee. Nature solves this problem using swarm intelligence, 
+using a colony of bees working together to solve a bigger problem. This phenomenon is not only perceived in bees. Birds flocking, 
+hawks hunting, animal herding, bacterial growth, fish schooling and microbial intelligence are all examples 
+of swarm intelligence in nature. Multi-agent \acs{uav} systems are based on swarm intelligence, using multiple 
+\acsp{uav} (aka drones) to solve more complex and bigger problems that are impossible for just a single \acs{uav} to solve.
+
+This research is conducted by PXL Smart ICT, the IT \& Electronics center of expertise and part of the research 
+department at PXL University of Applied Sciences and Arts. The goal of the project is to enable IT companies to 
+implement \acs{uav} projects via rapid robot prototyping.
+
+The internship provides a multi-agent system (\acs{mas}) architecture that supports homogeneous as well as heterogeneous 
+structures. Each \acs{uav} is an agent that processes data on its own and shares its knowledge with the other agents. 
+The agent organization can handle hierarchical, hologenic and coalition teams. Different types of organizations will 
+be compared regarding task completion time, computational time and accuracy of the completed task. A blackboard system 
+takes care of knowledge sharing between agents, with the option of working over multiple computers. 
+
+\acs{ros} (Robotic Operating System) is used to control the \acsp{uav}, each equipped with a PX4 autopilot. \acs{ros} is a set of 
+software libraries and tools that help to build smart robot applications. The PX4 autopilot uses MAVLink, a very 
+lightweight messaging protocol for communicating with \acsp{uav}. MAVROS, an implementation of MAVLink in \acs{ros}, is a 
+component that can convert between \acs{ros} messages and MAVLink messages. This provides easy control of the \acsp{uav}. By 
+gathering information from the \acs{uav} components the agents can analyze data. For example, the agent receives images 
+from the camera and can detect if an object is a car using OpenCV, a person, or something else.
+
+The goal of this internship is to create a flexible multi-agent system (\acs{mas}) architecture including a few exemplary 
+demonstrators. In these examples, it is made clear how each \acs{uav} makes decisions and how data is shared.
