@@ -1,52 +1,52 @@
 \babel@toc {english}{}
-\contentsline {section}{Acknowledgements}{i}{Doc-Start}%
-\contentsline {section}{Abstract}{ii}{Doc-Start}%
-\contentsline {section}{Contents}{iii}{Doc-Start}%
-\contentsline {section}{List of Figures}{v}{Doc-Start}%
-\contentsline {section}{List of Tables}{vi}{Doc-Start}%
-\contentsline {section}{Introduction}{1}{Doc-Start}%
-\contentsline {section}{\numberline {1}Research topic}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Research}{2}{subsection.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.1}Problem}{2}{subsubsection.1.1.1}%
-\contentsline {subsubsection}{\numberline {1.1.2}Question}{2}{subsubsection.1.1.2}%
-\contentsline {subsubsection}{\numberline {1.1.3}Sub-questions}{2}{subsubsection.1.1.3}%
-\contentsline {paragraph}{\numberline {1.1.3.1}What is an Agent?}{3}{paragraph.1.1.3.1}%
-\contentsline {paragraph}{\numberline {1.1.3.2}What is a \acs {mas}?}{5}{paragraph.1.1.3.2}%
-\contentsline {paragraph}{\numberline {1.1.3.3}What is a \acs {mas} architecture?}{6}{paragraph.1.1.3.3}%
-\contentsline {paragraph}{\numberline {1.1.3.4}What is a blackboard communication system?}{8}{paragraph.1.1.3.4}%
-\contentsline {paragraph}{\numberline {1.1.3.5}What are the advantages of a \acs {mas}}{9}{paragraph.1.1.3.5}%
-\contentsline {paragraph}{\numberline {1.1.3.6}What are the necessary/core components of a \acs {mas} architecture?}{9}{paragraph.1.1.3.6}%
-\contentsline {paragraph}{\numberline {1.1.3.7}Are there usable off-the-shelf rapid robot/UAV prototyping \acs {mas} architectures?}{10}{paragraph.1.1.3.7}%
-\contentsline {paragraph}{\numberline {1.1.3.8}What are the pros and cons of off-the-shelve rapid robot/UAV prototyping \acs {mas} architectures?}{12}{paragraph.1.1.3.8}%
-\contentsline {subsubsection}{\numberline {1.1.4}Research method}{13}{subsubsection.1.1.4}%
-\contentsline {paragraph}{\numberline {1.1.4.1}Experiments}{13}{paragraph.1.1.4.1}%
-\contentsline {paragraph}{\numberline {1.1.4.2}Observing other projects}{13}{paragraph.1.1.4.2}%
-\contentsline {section}{\numberline {2}Traineeship report}{14}{section.2}%
-\contentsline {subsection}{\numberline {2.1}About the company}{14}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Technologies}{15}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}ROS}{15}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}MAVLink}{16}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}MAVROS}{16}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}PX4}{17}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}Docker}{17}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}Gazebo}{18}{subsubsection.2.2.6}%
-\contentsline {subsubsection}{\numberline {2.2.7}Python}{19}{subsubsection.2.2.7}%
-\contentsline {subsection}{\numberline {2.3}Implementation}{20}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Iris drone}{20}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Agent implementation}{21}{subsubsection.2.3.2}%
-\contentsline {subsubsection}{\numberline {2.3.3}Simulation}{23}{subsubsection.2.3.3}%
-\contentsline {subsubsection}{\numberline {2.3.4}The blackboard system}{26}{subsubsection.2.3.4}%
-\contentsline {subsubsection}{\numberline {2.3.5}Object detection}{27}{subsubsection.2.3.5}%
-\contentsline {subsubsection}{\numberline {2.3.6}Controlling the agents}{28}{subsubsection.2.3.6}%
-\contentsline {subsubsection}{\numberline {2.3.7}Docker Swarm}{29}{subsubsection.2.3.7}%
-\contentsline {subsection}{\numberline {2.4}Future Work}{31}{subsection.2.4}%
-\contentsline {subsubsection}{\numberline {2.4.1}Multithreading object detection}{31}{subsubsection.2.4.1}%
-\contentsline {subsubsection}{\numberline {2.4.2}Optimizing docker swarm}{31}{subsubsection.2.4.2}%
-\contentsline {subsubsection}{\numberline {2.4.3}Adding other components}{31}{subsubsection.2.4.3}%
-\contentsline {subsubsection}{\numberline {2.4.4}Implementing a decision making model}{31}{subsubsection.2.4.4}%
-\contentsline {section}{\numberline {3}Conclusion}{32}{section.3}%
-\contentsline {section}{Bibliography}{33}{section.3}%
-\contentsline {section}{\numberline {4}Appendices}{35}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Description Appendix A}{36}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Description Appendix B}{37}{subsection.4.2}%
-\contentsline {subsection}{\numberline {4.3}Description Appendix C}{38}{subsection.4.3}%
+\contentsline {section}{Acknowledgements}{i}{Doc-Start}
+\contentsline {section}{Abstract}{ii}{Doc-Start}
+\contentsline {section}{Contents}{iii}{Doc-Start}
+\contentsline {section}{List of Figures}{v}{Doc-Start}
+\contentsline {section}{List of Tables}{vi}{Doc-Start}
+\contentsline {section}{Introduction}{1}{Doc-Start}
+\contentsline {section}{\numberline {1}Research topic}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}Research}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Problem}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Question}{2}{subsubsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.3}Sub-questions}{2}{subsubsection.1.1.3}
+\contentsline {paragraph}{\numberline {1.1.3.1}What is an Agent?}{3}{paragraph.1.1.3.1}
+\contentsline {paragraph}{\numberline {1.1.3.2}What is a \acs {mas}?}{5}{paragraph.1.1.3.2}
+\contentsline {paragraph}{\numberline {1.1.3.3}What is a \acs {mas} architecture?}{6}{paragraph.1.1.3.3}
+\contentsline {paragraph}{\numberline {1.1.3.4}What is a blackboard communication system?}{8}{paragraph.1.1.3.4}
+\contentsline {paragraph}{\numberline {1.1.3.5}What are the advantages of a \acs {mas}}{9}{paragraph.1.1.3.5}
+\contentsline {paragraph}{\numberline {1.1.3.6}What are the necessary/core components of a \acs {mas} architecture?}{9}{paragraph.1.1.3.6}
+\contentsline {paragraph}{\numberline {1.1.3.7}Are there usable off-the-shelf rapid robot/UAV prototyping \acs {mas} architectures?}{10}{paragraph.1.1.3.7}
+\contentsline {paragraph}{\numberline {1.1.3.8}What are the pros and cons of off-the-shelve rapid robot/UAV prototyping \acs {mas} architectures?}{12}{paragraph.1.1.3.8}
+\contentsline {subsubsection}{\numberline {1.1.4}Research method}{13}{subsubsection.1.1.4}
+\contentsline {paragraph}{\numberline {1.1.4.1}Experiments}{13}{paragraph.1.1.4.1}
+\contentsline {paragraph}{\numberline {1.1.4.2}Observing other projects}{13}{paragraph.1.1.4.2}
+\contentsline {section}{\numberline {2}Traineeship report}{14}{section.2}
+\contentsline {subsection}{\numberline {2.1}About the company}{14}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Technologies}{15}{subsection.2.2}
+\contentsline {subsubsection}{\numberline {2.2.1}ROS}{15}{subsubsection.2.2.1}
+\contentsline {subsubsection}{\numberline {2.2.2}MAVLink}{16}{subsubsection.2.2.2}
+\contentsline {subsubsection}{\numberline {2.2.3}MAVROS}{16}{subsubsection.2.2.3}
+\contentsline {subsubsection}{\numberline {2.2.4}PX4}{17}{subsubsection.2.2.4}
+\contentsline {subsubsection}{\numberline {2.2.5}Docker}{17}{subsubsection.2.2.5}
+\contentsline {subsubsection}{\numberline {2.2.6}Gazebo}{18}{subsubsection.2.2.6}
+\contentsline {subsubsection}{\numberline {2.2.7}Python}{19}{subsubsection.2.2.7}
+\contentsline {subsection}{\numberline {2.3}Implementation}{20}{subsection.2.3}
+\contentsline {subsubsection}{\numberline {2.3.1}Iris drone}{20}{subsubsection.2.3.1}
+\contentsline {subsubsection}{\numberline {2.3.2}Agent implementation}{21}{subsubsection.2.3.2}
+\contentsline {subsubsection}{\numberline {2.3.3}Simulation}{23}{subsubsection.2.3.3}
+\contentsline {subsubsection}{\numberline {2.3.4}The blackboard system}{26}{subsubsection.2.3.4}
+\contentsline {subsubsection}{\numberline {2.3.5}Object detection}{27}{subsubsection.2.3.5}
+\contentsline {subsubsection}{\numberline {2.3.6}Controlling the agents}{28}{subsubsection.2.3.6}
+\contentsline {subsubsection}{\numberline {2.3.7}Docker Swarm}{29}{subsubsection.2.3.7}
+\contentsline {subsection}{\numberline {2.4}Future Work}{31}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Multithreading object detection}{31}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Optimizing docker swarm}{31}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Adding other components}{31}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}Implementing a decision making model}{32}{subsubsection.2.4.4}
+\contentsline {section}{\numberline {3}Conclusion}{33}{section.3}
+\contentsline {section}{Bibliography}{34}{section.3}
+\contentsline {section}{\numberline {4}Appendices}{36}{section.4}
+\contentsline {subsection}{\numberline {4.1}Description Appendix A}{37}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Description Appendix B}{38}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Description Appendix C}{39}{subsection.4.3}

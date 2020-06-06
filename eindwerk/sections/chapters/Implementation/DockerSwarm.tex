@@ -43,14 +43,15 @@ echo "export ROS_MASTER_URI=http://localhost:11311"
 These variables are saved in a file \textit{set\_swarm\_settings.bash} and can now be sourced from inside the container. 
 \newpage
 
-To enable workers to communicate with the \acs{ros} master on the master node of the swarm, the overlay \acs{ip} address 
+To enable workers to communicate with the \acs{ros} master, on the master node of the swarm, the overlay \acs{ip} address 
 has to be known. The script \textit{0b\_generate\_overlay.sh}, on the master node
 (outside of running container), will return the 
 \acs{ip} address of the running container. 
 
 On a worker machine, \textit{0c\_generate\_ros\_config\_command.sh} first checks if the machine is the host or not. When it 
-is not the script will need an input; the \acs{ip}. Instead of setting the IP to localhost, the script will now generate
-the \textit{ROS\_MASTER\_URI} correctly for each worker.
+is not the script will need two inputs; the \acs{ip} and the current running attached container. Instead of setting the IP to localhost, 
+the script will now generate
+the \textit{ROS\_MASTER\_URI} and the \textit{ROS\_IP} correctly for each worker.
 
 \begin{verbatim}
     read -p "IP on overlay network of the master container: " master_ip
@@ -76,7 +77,6 @@ the \textit{ROS\_MASTER\_URI} correctly for each worker.
     >> ../src/$dir/Commands/bin/set_swarm_settings.bash
 \end{verbatim}
 
-A worker needs to the \acs{ip} of the master container running the simulation and the name of the current running container. 
 The current running container name is needed to get the \acs{ip} of that container to set the variable \textit{ROS\_IP}. If this is not done 
 the subribers would not be able to receive messages from this node.
 The script will then automatically place the \textit{set\_swarm\_settings.bash} in the correct linked volume folder. This file can now be sourced
