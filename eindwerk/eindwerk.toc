@@ -38,15 +38,18 @@
 \contentsline {subsubsection}{\numberline {2.3.4}The blackboard system}{26}{subsubsection.2.3.4}
 \contentsline {subsubsection}{\numberline {2.3.5}Object detection}{27}{subsubsection.2.3.5}
 \contentsline {subsubsection}{\numberline {2.3.6}Controlling the agents}{28}{subsubsection.2.3.6}
-\contentsline {subsubsection}{\numberline {2.3.7}Docker Swarm}{29}{subsubsection.2.3.7}
-\contentsline {subsection}{\numberline {2.4}Future Work}{31}{subsection.2.4}
-\contentsline {subsubsection}{\numberline {2.4.1}Multithreading object detection}{31}{subsubsection.2.4.1}
-\contentsline {subsubsection}{\numberline {2.4.2}Optimizing docker swarm}{31}{subsubsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.3}Adding other components}{31}{subsubsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.4}Implementing a decision making model}{32}{subsubsection.2.4.4}
-\contentsline {section}{\numberline {3}Conclusion}{33}{section.3}
-\contentsline {section}{Bibliography}{34}{section.3}
-\contentsline {section}{\numberline {4}Appendices}{36}{section.4}
-\contentsline {subsection}{\numberline {4.1}Description Appendix A}{37}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Description Appendix B}{38}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Description Appendix C}{39}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {2.3.7}Hologenic architecture}{29}{subsubsection.2.3.7}
+\contentsline {subsubsection}{\numberline {2.3.8}Team architecture}{30}{subsubsection.2.3.8}
+\contentsline {subsubsection}{\numberline {2.3.9}Coalition architecture}{32}{subsubsection.2.3.9}
+\contentsline {subsubsection}{\numberline {2.3.10}Docker Swarm}{34}{subsubsection.2.3.10}
+\contentsline {subsection}{\numberline {2.4}Future Work}{36}{subsection.2.4}
+\contentsline {subsubsection}{\numberline {2.4.1}Multithreading object detection}{36}{subsubsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.2}Optimizing docker swarm}{36}{subsubsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.3}Adding other components}{36}{subsubsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.4}Implementing a decision making model}{37}{subsubsection.2.4.4}
+\contentsline {section}{\numberline {3}Conclusion}{38}{section.3}
+\contentsline {section}{Bibliography}{39}{section.3}
+\contentsline {section}{\numberline {4}Appendices}{41}{section.4}
+\contentsline {subsection}{\numberline {4.1}Description Appendix A}{42}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Description Appendix B}{43}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Description Appendix C}{44}{subsection.4.3}

@@ -37,15 +37,18 @@
 \BOOKMARK [3][-]{subsubsection.2.3.4}{The blackboard system}{subsection.2.3}% 37
 \BOOKMARK [3][-]{subsubsection.2.3.5}{Object detection}{subsection.2.3}% 38
 \BOOKMARK [3][-]{subsubsection.2.3.6}{Controlling the agents}{subsection.2.3}% 39
-\BOOKMARK [3][-]{subsubsection.2.3.7}{Docker Swarm}{subsection.2.3}% 40
-\BOOKMARK [2][-]{subsection.2.4}{Future Work}{section.2}% 41
-\BOOKMARK [3][-]{subsubsection.2.4.1}{Multithreading object detection}{subsection.2.4}% 42
-\BOOKMARK [3][-]{subsubsection.2.4.2}{Optimizing docker swarm}{subsection.2.4}% 43
-\BOOKMARK [3][-]{subsubsection.2.4.3}{Adding other components}{subsection.2.4}% 44
-\BOOKMARK [3][-]{subsubsection.2.4.4}{Implementing a decision making model}{subsection.2.4}% 45
-\BOOKMARK [1][-]{section.3}{Conclusion}{}% 46
-\BOOKMARK [1][-]{section.3}{Bibliography}{}% 47
-\BOOKMARK [1][-]{section.4}{Appendices}{}% 48
-\BOOKMARK [2][-]{subsection.4.1}{Description Appendix A}{section.4}% 49
-\BOOKMARK [2][-]{subsection.4.2}{Description Appendix B}{section.4}% 50
-\BOOKMARK [2][-]{subsection.4.3}{Description Appendix C}{section.4}% 51
+\BOOKMARK [3][-]{subsubsection.2.3.7}{Hologenic architecture}{subsection.2.3}% 40
+\BOOKMARK [3][-]{subsubsection.2.3.8}{Team architecture}{subsection.2.3}% 41
+\BOOKMARK [3][-]{subsubsection.2.3.9}{Coalition architecture}{subsection.2.3}% 42
+\BOOKMARK [3][-]{subsubsection.2.3.10}{Docker Swarm}{subsection.2.3}% 43
+\BOOKMARK [2][-]{subsection.2.4}{Future Work}{section.2}% 44
+\BOOKMARK [3][-]{subsubsection.2.4.1}{Multithreading object detection}{subsection.2.4}% 45
+\BOOKMARK [3][-]{subsubsection.2.4.2}{Optimizing docker swarm}{subsection.2.4}% 46
+\BOOKMARK [3][-]{subsubsection.2.4.3}{Adding other components}{subsection.2.4}% 47
+\BOOKMARK [3][-]{subsubsection.2.4.4}{Implementing a decision making model}{subsection.2.4}% 48
+\BOOKMARK [1][-]{section.3}{Conclusion}{}% 49
+\BOOKMARK [1][-]{section.3}{Bibliography}{}% 50
+\BOOKMARK [1][-]{section.4}{Appendices}{}% 51
+\BOOKMARK [2][-]{subsection.4.1}{Description Appendix A}{section.4}% 52
+\BOOKMARK [2][-]{subsection.4.2}{Description Appendix B}{section.4}% 53
+\BOOKMARK [2][-]{subsection.4.3}{Description Appendix C}{section.4}% 54
