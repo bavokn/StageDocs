@@ -28,10 +28,12 @@ For each \acs{uav} a detector will be made with a pre-trained tiny-yolov3 loaded
 The detector will then use a subsriber 
 to link the camera feed from the \acs{uav} to the callback where frames from the feed will be processed with tiny-yolov3. 
 
-When tiny-yolov3 detects an object it will draw a rectangle around the object in a color assigned to this object. 
-the nex image can be 
-displayed using opencv. Next to displaying the new image with the detected objects, the detector also publishes 
-the coordinates of the 
-rectangle drawn around the found object for later usage, for example human tracking.
+When tiny-yolov3 detects an object, it will draw a rectangle around the object in a color assigned to this object. 
+Next to displaying the new image with the detected objects, the detector also publishes 
+the coordinates of the rectangle drawn around the found object for later usage, for example human tracking.
 
-//TODO add screenshot of detection
+\begin{figure}[ht]
+    \centering
+    \includegraphics[scale=0.1]{darknet_obj_detection.png}
+    \caption[Object detection example]{Object detection example}
+\end{figure}

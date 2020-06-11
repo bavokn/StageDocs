@@ -31,7 +31,8 @@ set accordingly. \textit{0c\_generate\_ros\_config\_command.sh} first checks if 
 a machine is the master the IP address is set to \textit{localhost}.
 
 \begin{verbatim}
-IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
+IP=$(docker inspect -f 
+'{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' 
 smartuav_simulation_attached) > ../Commands/bin/set_swarm_settings.bash
 
 echo "export ROS_HOSTNAME=$IP" >> ../Commands/bin/set_swarm_settings.bash 

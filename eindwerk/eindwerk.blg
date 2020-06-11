@@ -40,25 +40,25 @@ Warning--empty year in ros:about
 Warning--empty year in ros:rviz
 You've used 21 entries,
             2773 wiz_defined-function locations,
-            664 strings with 6133 characters,
-and the built_in function-call counts, 6012 in all, are:
+            666 strings with 6185 characters,
+and the built_in function-call counts, 6008 in all, are:
 = -- 478
 > -- 200
 < -- 20
-+ -- 84
++ -- 83
 - -- 60
-* -- 330
+* -- 326
 := -- 892
 add.period$ -- 46
 call.type$ -- 21
 change.case$ -- 63
-chr.to.int$ -- 18
+chr.to.int$ -- 19
 cite$ -- 46
 duplicate$ -- 335
 empty$ -- 676
 format.name$ -- 80
 if$ -- 1279
-int.to.chr$ -- 4
+int.to.chr$ -- 3
 int.to.str$ -- 1
 missing$ -- 8
 newline$ -- 96
@@ -67,10 +67,10 @@ pop$ -- 254
 preamble$ -- 1
 purify$ -- 62
 quote$ -- 0
-skip$ -- 311
+skip$ -- 314
 stack$ -- 0
 substring$ -- 43
-swap$ -- 27
+swap$ -- 25
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0

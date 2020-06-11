@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.31)  6 JUN 2020 13:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2020.5.31)  11 JUN 2020 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -603,25 +603,25 @@ Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
 \AC@clearlist=\toks20
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 31.
+Package hyperref Info: Option `colorlinks' set `true' on input line 32.
  (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.aux)
 \openout1 = `eindwerk.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 57.
+LaTeX Font Info:    ... okay on input line 57.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 57.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -650,7 +650,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \AtBeginShipoutBox=\box29
-Package hyperref Info: Link coloring ON on input line 53.
+Package hyperref Info: Link coloring ON on input line 57.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -658,57 +658,66 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count112
 )
-LaTeX Info: Redefining \ref on input line 53.
-LaTeX Info: Redefining \pageref on input line 53.
-LaTeX Info: Redefining \nameref on input line 53.
+LaTeX Info: Redefining \ref on input line 57.
+LaTeX Info: Redefining \pageref on input line 57.
+LaTeX Info: Redefining \nameref on input line 57.
  (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.out) (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.out)
 \@outlinefile=\write5
 \openout5 = `eindwerk.out'.
 
- (/home/bavo/Documents/StageDocs/eindwerk/titlepage.tex
+ (/home/bavo/Documents/StageDocs/eindwerk/sections/titlepage.tex
 <images/logo_pxl_digital.png, id=215, 931.0785pt x 281.1303pt>
 File: images/logo_pxl_digital.png Graphic file (type png)
 <use images/logo_pxl_digital.png>
-Package pdftex.def Info: images/logo_pxl_digital.png  used on input line 5.
+Package pdftex.def Info: images/logo_pxl_digital.png  used on input line 7.
 (pdftex.def)             Requested size: 230.36061pt x 69.55315pt.
 <images/logo_PXL_University_of_applied_sciences_and_arts.png, id=217, 4447.61626pt x 1058.95625pt>
 File: images/logo_PXL_University_of_applied_sciences_and_arts.png Graphic file (type png)
 <use images/logo_PXL_University_of_applied_sciences_and_arts.png>
-Package pdftex.def Info: images/logo_PXL_University_of_applied_sciences_and_arts.png  used on input line 14.
+Package pdftex.def Info: images/logo_PXL_University_of_applied_sciences_and_arts.png  used on input line 16.
 (pdftex.def)             Requested size: 322.50345pt x 76.78447pt.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd) (/usr/share/texmf/tex/latex/lm/omslmsy.fd) (/usr/share/texmf/tex/latex/lm/omxlmex.fd)
-Overfull \hbox (30.0pt too wide) in paragraph at lines 27--28
+Overfull \hbox (30.0pt too wide) in paragraph at lines 29--30
 [] 
  []
 
+<images/PLX_people.jpg, id=218, 853.5087pt x 974.6814pt>
+File: images/PLX_people.jpg Graphic file (type jpg)
+<use images/PLX_people.jpg>
+Package pdftex.def Info: images/PLX_people.jpg  used on input line 32.
+(pdftex.def)             Requested size: 128.02078pt x 146.19589pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/bavo/Documents/StageDocs/eindwerk/images/logo_pxl_digital.png> </home/bavo/Documents/StageDocs/eindwerk/images/logo_PXL_University_of_applied_sciences_and_arts.png>])pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} </home/bavo/Documents/StageDocs/eindwerk/images/logo_pxl_digital.png> </home/bavo/Documents/StageDocs/eindwerk/images/logo_PXL_University_of_applied_sciences_and_arts.png> </home/bavo/Documents/StageDocs/eindwerk/images/PLX_people.jpg>])pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.56   \blankpage
-                  [1] (/home/bavo/Documents/StageDocs/eindwerk/titlepage.tex
+l.60   \blankpage
+                  [1] (/home/bavo/Documents/StageDocs/eindwerk/sections/titlepage.tex
 File: images/logo_pxl_digital.png Graphic file (type png)
 <use images/logo_pxl_digital.png>
-Package pdftex.def Info: images/logo_pxl_digital.png  used on input line 5.
+Package pdftex.def Info: images/logo_pxl_digital.png  used on input line 7.
 (pdftex.def)             Requested size: 230.36061pt x 69.55315pt.
 File: images/logo_PXL_University_of_applied_sciences_and_arts.png Graphic file (type png)
 <use images/logo_PXL_University_of_applied_sciences_and_arts.png>
-Package pdftex.def Info: images/logo_PXL_University_of_applied_sciences_and_arts.png  used on input line 14.
+Package pdftex.def Info: images/logo_PXL_University_of_applied_sciences_and_arts.png  used on input line 16.
 (pdftex.def)             Requested size: 322.50345pt x 76.78447pt.
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 27--28
+Overfull \hbox (30.0pt too wide) in paragraph at lines 29--30
 [] 
  []
 
+File: images/PLX_people.jpg Graphic file (type jpg)
+<use images/PLX_people.jpg>
+Package pdftex.def Info: images/PLX_people.jpg  used on input line 32.
+(pdftex.def)             Requested size: 128.02078pt x 146.19589pt.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.28 \end{titlepage}
+l.34 \end{titlepage}
                      [1]) (/home/bavo/Documents/StageDocs/eindwerk/sections/Acknowledgements.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.67   \newpage
+l.71   \newpage
                 [1] (/home/bavo/Documents/StageDocs/eindwerk/sections/Abstract.tex) [2] (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.toc
 Overfull \hbox (9.58443pt too wide) in paragraph at lines 20--20
  [][] [][][]\OT1/lmr/m/n/12 What are the pros and cons of off-the-shelve rapid robot/UAV 
@@ -731,7 +740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--1
 
  []
 
-<images/env-agent.png, id=454, 329.23pt x 193.72375pt>
+<images/env-agent.png, id=457, 329.23pt x 193.72375pt>
 File: images/env-agent.png Graphic file (type png)
 <use images/env-agent.png>
 Package pdftex.def Info: images/env-agent.png  used on input line 12.
@@ -752,18 +761,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--1
 
  []
 
-<images/teamcommunication.png, id=481, 561.09625pt x 306.14375pt>
+<images/teamcommunication.png, id=484, 561.09625pt x 306.14375pt>
 File: images/teamcommunication.png Graphic file (type png)
 <use images/teamcommunication.png>
 Package pdftex.def Info: images/teamcommunication.png  used on input line 9.
 (pdftex.def)             Requested size: 336.66034pt x 183.68765pt.
 [6 </home/bavo/Documents/StageDocs/eindwerk/images/teamcommunication.png>]
-<images/coalitions.png, id=488, 288.07625pt x 230.8625pt>
+<images/coalitions.png, id=491, 288.07625pt x 230.8625pt>
 File: images/coalitions.png Graphic file (type png)
 <use images/coalitions.png>
 Package pdftex.def Info: images/coalitions.png  used on input line 24.
 (pdftex.def)             Requested size: 172.84708pt x 138.51855pt.
-<images/agentComsClosest.png, id=489, 364.36125pt x 201.75375pt>
+<images/agentComsClosest.png, id=492, 364.36125pt x 201.75375pt>
 File: images/agentComsClosest.png Graphic file (type png)
 <use images/agentComsClosest.png>
 Package pdftex.def Info: images/agentComsClosest.png  used on input line 37.
@@ -773,7 +782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--1
 
  []
 
-<images/blackboard.png, id=497, 283.0575pt x 137.91525pt>
+<images/blackboard.png, id=500, 283.0575pt x 137.91525pt>
 File: images/blackboard.png Graphic file (type png)
 <use images/blackboard.png>
 Package pdftex.def Info: images/blackboard.png  used on input line 9.
@@ -793,18 +802,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--1
 
  []
 
-<images/Subsumption_Architecture_Abstract_Diagram.png, id=514, 616.55344pt x 346.29375pt>
+<images/Subsumption_Architecture_Abstract_Diagram.png, id=517, 616.55344pt x 346.29375pt>
 File: images/Subsumption_Architecture_Abstract_Diagram.png Graphic file (type png)
 <use images/Subsumption_Architecture_Abstract_Diagram.png>
 Package pdftex.def Info: images/Subsumption_Architecture_Abstract_Diagram.png  used on input line 14.
 (pdftex.def)             Requested size: 308.27596pt x 173.14644pt.
 [10 </home/bavo/Documents/StageDocs/eindwerk/images/Subsumption_Architecture_Abstract_Diagram.png>]
-<images/FIPA.png, id=522, 372.39125pt x 454.69875pt>
+<images/FIPA.png, id=525, 372.39125pt x 454.69875pt>
 File: images/FIPA.png Graphic file (type png)
 <use images/FIPA.png>
 Package pdftex.def Info: images/FIPA.png  used on input line 26.
 (pdftex.def)             Requested size: 186.19516pt x 227.34882pt.
-) [11 </home/bavo/Documents/StageDocs/eindwerk/images/FIPA.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Research/ProsAndConsPremade.tex) [12] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Research/ResearchMethod.tex
+) [11 </home/bavo/Documents/StageDocs/eindwerk/images/FIPA.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Research/ProsAndConsPremade.tex
+Underfull \hbox (badness 10000) in paragraph at lines 54--1
+
+ []
+
+) [12] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Research/ResearchMethod.tex
 Underfull \hbox (badness 10000) in paragraph at lines 1--2
 
  []
@@ -814,48 +828,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
 
-) [13]) (/home/bavo/Documents/StageDocs/eindwerk/sections/TraineeshipReport.tex (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/AboutTheCompany.tex) [14] (/home/bavo/Documents/StageDocs/eindwerk/sections/technologies.tex (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/ROS.tex
-<images/ROSLOGO.png, id=550, 1204.5pt x 321.2pt>
+) [13]) (/home/bavo/Documents/StageDocs/eindwerk/sections/TraineeshipReport.tex (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/AboutTheCompany.tex
+<images/smartict.png, id=548, 294.74115pt x 70.28258pt>
+File: images/smartict.png Graphic file (type png)
+<use images/smartict.png>
+Package pdftex.def Info: images/smartict.png  used on input line 6.
+(pdftex.def)             Requested size: 294.74042pt x 70.2824pt.
+) [14 </home/bavo/Documents/StageDocs/eindwerk/images/smartict.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/technologies.tex (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/ROS.tex
+<images/ROSLOGO.png, id=555, 1204.5pt x 321.2pt>
 File: images/ROSLOGO.png Graphic file (type png)
 <use images/ROSLOGO.png>
 Package pdftex.def Info: images/ROSLOGO.png  used on input line 3.
 (pdftex.def)             Requested size: 240.89574pt x 64.23886pt.
-<images/roscore.png, id=559, 374.3586pt x 111.2958pt>
+<images/roscore.png, id=564, 374.3586pt x 111.2958pt>
 File: images/roscore.png Graphic file (type png)
 <use images/roscore.png>
 Package pdftex.def Info: images/roscore.png  used on input line 18.
 (pdftex.def)             Requested size: 460.72124pt x 136.97621pt.
 ) [15 </home/bavo/Documents/StageDocs/eindwerk/images/ROSLOGO.png> </home/bavo/Documents/StageDocs/eindwerk/images/roscore.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/MAVLINK.tex
-<images/mavlink.png, id=574, 499.8675pt x 142.5325pt>
+<images/mavlink.png, id=579, 499.8675pt x 142.5325pt>
 File: images/mavlink.png Graphic file (type png)
 <use images/mavlink.png>
 Package pdftex.def Info: images/mavlink.png  used on input line 10.
 (pdftex.def)             Requested size: 399.89453pt x 114.02614pt.
 ) (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/MAVROS.tex) [16 </home/bavo/Documents/StageDocs/eindwerk/images/mavlink.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/PX4.tex
-<images/px4logo.png, id=595, 455.301pt x 341.3553pt>
+<images/px4logo.png, id=600, 455.301pt x 341.3553pt>
 File: images/px4logo.png Graphic file (type png)
 <use images/px4logo.png>
 Package pdftex.def Info: images/px4logo.png  used on input line 8.
 (pdftex.def)             Requested size: 136.59134pt x 102.40736pt.
 ) (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/Docker.tex
-<images/docker.png, id=598, 444.66125pt x 114.4275pt>
+<images/docker.png, id=603, 444.66125pt x 114.4275pt>
 File: images/docker.png Graphic file (type png)
 <use images/docker.png>
 Package pdftex.def Info: images/docker.png  used on input line 7.
 (pdftex.def)             Requested size: 177.86134pt x 45.77019pt.
 ) [17 </home/bavo/Documents/StageDocs/eindwerk/images/px4logo.png> </home/bavo/Documents/StageDocs/eindwerk/images/docker.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/Gazebo.tex
-<images/gazebo.png, id=613, 513.92pt x 245.91875pt>
+<images/gazebo.png, id=618, 513.92pt x 245.91875pt>
 File: images/gazebo.png Graphic file (type png)
 <use images/gazebo.png>
 Package pdftex.def Info: images/gazebo.png  used on input line 10.
 (pdftex.def)             Requested size: 308.35437pt x 147.55237pt.
-<images/gazebo_full_screen.png, id=614, 1857.94125pt x 1053.9375pt>
+<images/gazebo_full_screen.png, id=619, 1857.94125pt x 1053.9375pt>
 File: images/gazebo_full_screen.png Graphic file (type png)
 <use images/gazebo_full_screen.png>
 Package pdftex.def Info: images/gazebo_full_screen.png  used on input line 16.
 (pdftex.def)             Requested size: 371.58167pt x 210.78377pt.
  [18 </home/bavo/Documents/StageDocs/eindwerk/images/gazebo.png> </home/bavo/Documents/StageDocs/eindwerk/images/gazebo_full_screen.png>]) (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Technologies/Python.tex
-<images/python.png, id=624, 1492.57625pt x 647.41875pt>
+<images/python.png, id=629, 1492.57625pt x 647.41875pt>
 File: images/python.png Graphic file (type png)
 <use images/python.png>
 Package pdftex.def Info: images/python.png  used on input line 8.
@@ -865,7 +885,7 @@ Package acronym Info: Label `acro:os' newly defined as it shall be overridden
 although it is yet undefined on input line 5.
 Package acronym Info: Label `acro:gps' newly defined as it shall be overridden
 although it is yet undefined on input line 7.
-<images/iris.jpg, id=640, 602.25pt x 462.72874pt>
+<images/iris.jpg, id=645, 602.25pt x 462.72874pt>
 File: images/iris.jpg Graphic file (type jpg)
 <use images/iris.jpg>
 Package pdftex.def Info: images/iris.jpg  used on input line 11.
@@ -877,19 +897,25 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 5.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [21]) [22] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/Simulation.tex
-<images/dockerscheme.png, id=688, 753.81625pt x 753.81625pt>
+<images/dockerscheme.png, id=693, 753.81625pt x 753.81625pt>
 File: images/dockerscheme.png Graphic file (type png)
 <use images/dockerscheme.png>
 Package pdftex.def Info: images/dockerscheme.png  used on input line 11.
 (pdftex.def)             Requested size: 339.21419pt x 339.21419pt.
  [23 </home/bavo/Documents/StageDocs/eindwerk/images/dockerscheme.png>] [24]
-<images/RVIZ.png, id=726, 1443.3925pt x 863.225pt>
+<images/RVIZ.png, id=731, 1443.3925pt x 863.225pt>
 File: images/RVIZ.png Graphic file (type png)
 <use images/RVIZ.png>
-Package pdftex.def Info: images/RVIZ.png  used on input line 72.
+Package pdftex.def Info: images/RVIZ.png  used on input line 73.
 (pdftex.def)             Requested size: 288.67339pt x 172.64194pt.
-) [25 </home/bavo/Documents/StageDocs/eindwerk/images/RVIZ.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/BlackboardImplementation.tex) [26] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/ObjectDetection.tex) [27] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/ControllingAgents.tex) [28] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/HologenicImplementation.tex
-<images/hologenic/hologenicFull.png, id=778, 1699.34875pt x 825.0825pt>
+) [25 </home/bavo/Documents/StageDocs/eindwerk/images/RVIZ.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/BlackboardImplementation.tex) [26] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/ObjectDetection.tex
+<images/darknet_obj_detection.png, id=758, 1766.6pt x 1491.5725pt>
+File: images/darknet_obj_detection.png Graphic file (type png)
+<use images/darknet_obj_detection.png>
+Package pdftex.def Info: images/darknet_obj_detection.png  used on input line 37.
+(pdftex.def)             Requested size: 176.67035pt x 149.16599pt.
+) [27 </home/bavo/Documents/StageDocs/eindwerk/images/darknet_obj_detection.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/ControllingAgents.tex) [28] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/HologenicImplementation.tex
+<images/hologenic/hologenicFull.png, id=787, 1699.34875pt x 825.0825pt>
 File: images/hologenic/hologenicFull.png Graphic file (type png)
 <use images/hologenic/hologenicFull.png>
 Package pdftex.def Info: images/hologenic/hologenicFull.png  used on input line 11.
@@ -900,80 +926,95 @@ Overfull \hbox (49.08733pt too wide) in paragraph at lines 11--12
  []
 
 ) [29 </home/bavo/Documents/StageDocs/eindwerk/images/hologenic/hologenicFull.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/TeamsImplementation.tex
-<images/teams_size_3/team7Full.png, id=794, 1493.58pt x 659.46375pt>
+<images/teams_size_3/team7Full.png, id=803, 1493.58pt x 659.46375pt>
 File: images/teams_size_3/team7Full.png Graphic file (type png)
 <use images/teams_size_3/team7Full.png>
 Package pdftex.def Info: images/teams_size_3/team7Full.png  used on input line 10.
 (pdftex.def)             Requested size: 448.07745pt x 197.84064pt.
  [30 </home/bavo/Documents/StageDocs/eindwerk/images/teams_size_3/team7Full.png>]
-<images/teams_size_3/team2_unique.png, id=802, 1042.89626pt x 622.325pt>
+<images/teams_size_3/team2_unique.png, id=811, 1042.89626pt x 622.325pt>
 File: images/teams_size_3/team2_unique.png Graphic file (type png)
 <use images/teams_size_3/team2_unique.png>
 Package pdftex.def Info: images/teams_size_3/team2_unique.png  used on input line 19.
 (pdftex.def)             Requested size: 312.87129pt x 186.69893pt.
-<images/teams_size_3/team3_unique.png, id=803, 1242.6425pt x 676.5275pt>
+<images/teams_size_3/team3_unique.png, id=812, 1242.6425pt x 676.5275pt>
 File: images/teams_size_3/team3_unique.png Graphic file (type png)
 <use images/teams_size_3/team3_unique.png>
 Package pdftex.def Info: images/teams_size_3/team3_unique.png  used on input line 27.
 (pdftex.def)             Requested size: 372.79562pt x 202.95981pt.
 ) [31 </home/bavo/Documents/StageDocs/eindwerk/images/teams_size_3/team2_unique.png> </home/bavo/Documents/StageDocs/eindwerk/images/teams_size_3/team3_unique.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/CoalitionImplementation.tex
-<images/coalition_size_2/coalitionFullSideView.png, id=815, 1059.96pt x 722.7pt>
+<images/coalition_size_2/coalitionFullSideView.png, id=824, 1059.96pt x 722.7pt>
 File: images/coalition_size_2/coalitionFullSideView.png Graphic file (type png)
 <use images/coalition_size_2/coalitionFullSideView.png>
 Package pdftex.def Info: images/coalition_size_2/coalitionFullSideView.png  used on input line 9.
 (pdftex.def)             Requested size: 423.97649pt x 289.07487pt.
  [32 </home/bavo/Documents/StageDocs/eindwerk/images/coalition_size_2/coalitionFullSideView.png>]
-<images/coalition_size_2/coalition1_unique.png, id=822, 932.48375pt x 471.7625pt>
+<images/coalition_size_2/coalition1_unique.png, id=831, 932.48375pt x 471.7625pt>
 File: images/coalition_size_2/coalition1_unique.png Graphic file (type png)
 <use images/coalition_size_2/coalition1_unique.png>
 Package pdftex.def Info: images/coalition_size_2/coalition1_unique.png  used on input line 18.
 (pdftex.def)             Requested size: 372.9869pt x 188.70164pt.
-<images/coalition_size_2/coalition4_unique.png, id=825, 922.44624pt x 490.83376pt>
+<images/coalition_size_2/coalition4_unique.png, id=834, 922.44624pt x 490.83376pt>
 File: images/coalition_size_2/coalition4_unique.png Graphic file (type png)
 <use images/coalition_size_2/coalition4_unique.png>
 Package pdftex.def Info: images/coalition_size_2/coalition4_unique.png  used on input line 26.
 (pdftex.def)             Requested size: 368.97195pt x 196.33002pt.
-) [33 </home/bavo/Documents/StageDocs/eindwerk/images/coalition_size_2/coalition1_unique.png> </home/bavo/Documents/StageDocs/eindwerk/images/coalition_size_2/coalition4_unique.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/DockerSwarm.tex
-Overfull \hbox (39.45401pt too wide) in paragraph at lines 41--41
-[]\OT1/lmtt/m/n/12 IP=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'[] 
+) [33 </home/bavo/Documents/StageDocs/eindwerk/images/coalition_size_2/coalition1_unique.png> </home/bavo/Documents/StageDocs/eindwerk/images/coalition_size_2/coalition4_unique.png>] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/Implementation/DockerSwarm.tex [34]) [35] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/FutureWork.tex))) [36] [37] (/home/bavo/Documents/StageDocs/eindwerk/sections/conclusion.tex
+Overfull \hbox (4.1202pt too wide) in paragraph at lines 1--4
+\OT1/lmr/m/n/12 Concluding the project, three dif-fer-ent multi-agent ar-chi-tec-tures are con-structed and demon-
  []
 
-[34]) [35] (/home/bavo/Documents/StageDocs/eindwerk/sections/chapters/FutureWork.tex))) [36] [37] (/home/bavo/Documents/StageDocs/eindwerk/sections/conclusion.tex) [38] (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.bbl
-Underfull \hbox (badness 1515) in paragraph at lines 76--79
+)
+Overfull \hbox (3.01617pt too wide) in paragraph at lines 15--108
+\OT1/lmr/m/n/12 start an join a swarm are in-side the project in a sep-a-rate folder named \OT1/lmr/m/it/12 Docker[]swarm[]scripts\OT1/lmr/m/n/12 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--108
+
+ []
+
+[38] (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+[]\OT1/lmr/m/n/12 arducopter.co, 31/05/2020.  URL [][]$\OT1/lmtt/m/n/12 http : / / www . arducopter . co . uk /
+ []
+
+
+Underfull \hbox (badness 1515) in paragraph at lines 67--70
 []\OT1/lmr/m/n/12 S. J. Vaughan-Nichols, 31/04/2020.  URL [][]$\OT1/lmtt/m/n/12 https : / / www . zdnet . com / article /
  []
 
-[39]
-Underfull \hbox (badness 10000) in paragraph at lines 98--100
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 []\OT1/lmr/m/n/12 R. wiki, 31/05/2020.  URL [][]$\OT1/lmtt/m/n/12 http : / / wiki . ros . org / ROS / Tutorials /
  []
 
-) [40] [41] [42] [43]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 120.
+[39]) [40] [41] [42] [43]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
  [44]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 120.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
  (/home/bavo/Documents/StageDocs/eindwerk/eindwerk.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 120.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 120.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `eindwerk.out' has not changed.
 (rerunfilecheck)             Checksum: 1C0899C501B95B992B8EB5884C228C86;3944.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 120.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  ) 
 Here is how much of TeX's memory you used:
- 8793 strings out of 492982
- 132330 string characters out of 6134896
- 226141 words of memory out of 5000000
- 11874 multiletter control sequences out of 15000+600000
+ 8809 strings out of 492982
+ 132767 string characters out of 6134896
+ 226269 words of memory out of 5000000
+ 11886 multiletter control sequences out of 15000+600000
  44375 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  32i,12n,43p,611b,517s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on /home/bavo/Documents/StageDocs/eindwerk/eindwerk.pdf (54 pages, 2239663 bytes).
+Output written on /home/bavo/Documents/StageDocs/eindwerk/eindwerk.pdf (54 pages, 9480893 bytes).
 PDF statistics:
- 995 PDF objects out of 1000 (max. 8388607)
- 872 compressed objects within 9 object streams
- 180 named destinations out of 1000 (max. 500000)
- 568 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1007 PDF objects out of 1200 (max. 8388607)
+ 879 compressed objects within 9 object streams
+ 181 named destinations out of 1000 (max. 500000)
+ 583 words of extra memory for PDF output out of 10000 (max. 10000000)
 

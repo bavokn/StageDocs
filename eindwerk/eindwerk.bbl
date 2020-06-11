@@ -9,6 +9,14 @@
 Ros.
 \newblock URL \url{https://www.ros.org/about-ros/}.
 
+\bibitem[arducopter.co(31/05/2020)]{arducopter:iris}
+arducopter.co, 31/05/2020.
+\newblock URL \url{http://www.arducopter.co.uk/iris-quadcopter-uav.html)}.
+
+\bibitem[Firmware(31/05/2020)]{sim:issue}
+P.~Firmware, 31/05/2020.
+\newblock URL \url{https://github.com/PX4/Firmware/issues/14436}.
+
 \bibitem[GAZEBO(05/05/2020)]{gazebo:org}
 GAZEBO, 05/05/2020.
 \newblock URL \url{http://gazebosim.org/}.
@@ -55,23 +63,6 @@ R.~H. Stefan~Poslad, Phil~Buckle.
 \newblock Imperial College of Science, Technology and Medicine, Exhibition
   Road, London, SW7 2BZ, 2000?
 
-\bibitem[todo(05/05/2020)]{python:wiki}
-todo, 05/05/2020.
-\newblock URL
-  \url{https://en.wikipedia.org/wiki/Python_(programming_language)}.
-
-\bibitem[todo(20/03/2020)]{blackboard:wiki}
-todo, 20/03/2020.
-\newblock URL \url{https://en.wikipedia.org/wiki/Blackboard\_system}.
-
-\bibitem[todo(31/05/2020{\natexlab{a}})]{arducopter:iris}
-todo, 31/05/2020{\natexlab{a}}.
-\newblock URL \url{http://www.arducopter.co.uk/iris-quadcopter-uav.html)}.
-
-\bibitem[todo(31/05/2020{\natexlab{b}})]{sim:issue}
-todo, 31/05/2020{\natexlab{b}}.
-\newblock URL \url{https://github.com/PX4/Firmware/issues/14436}.
-
 \bibitem[Vaughan-Nichols(31/04/2020)]{docker:article}
 S.~J. Vaughan-Nichols, 31/04/2020.
 \newblock URL
@@ -97,5 +88,14 @@ R.~wiki, 31/05/2020{\natexlab{a}}.
 \bibitem[wiki(31/05/2020{\natexlab{b}})]{ros:nodes}
 R.~wiki, 31/05/2020{\natexlab{b}}.
 \newblock URL \url{http://wiki.ros.org/ROS/Tutorials/UnderstandingNodes}.
+
+\bibitem[wikipedia the~free encyclopedia(05/05/2020)]{python:wiki}
+wikipedia the~free encyclopedia, 05/05/2020.
+\newblock URL
+  \url{https://en.wikipedia.org/wiki/Python_(programming_language)}.
+
+\bibitem[wikipedia the~free encyclopedia(20/03/2020)]{blackboard:wiki}
+wikipedia the~free encyclopedia, 20/03/2020.
+\newblock URL \url{https://en.wikipedia.org/wiki/Blackboard\_system}.
 
 \end{thebibliography}

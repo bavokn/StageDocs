@@ -1,1 +1,16 @@
-Concluding the project, three different multi-agent architectures are demonstrated.
+Concluding the project, three different multi-agent architectures are constructed and demonstrated. With
+clarification and data plotting on all three architectures it becomes clear on how these
+architectures differentiate. Each architecture example has its own start script.
+
+The agents can communicate with each other using the blackboard system. 
+In the blackboard system an area can be divided into multiple subsections. In each 
+subsection, tasks can be assigned. Using the communication the multi-agent system can solve the tasks given.
+Depending on the architecture the agents will autonomously solve the given tasks in a
+specific order.
+
+As an example of how to add extra components, an object detector is made. Showing on
+how to add a component to the system and linking this to the blackboard system. The
+detector can be run on the \acs{gpu} but unfortunately not in a multiprocess environment.
+
+A multi-agent system can be run on different machines using a docker swarm. The scripts to start an
+join a swarm are inside the project in a separate folder named \textit{Docker\_swarm\_scripts}.

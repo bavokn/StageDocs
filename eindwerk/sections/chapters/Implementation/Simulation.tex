@@ -20,6 +20,7 @@ The simulation container is responsible for spawning all the \acp{uav} in a worl
 the script \textit{generate\_launch.sh} creates a launch file 
 by generating a string and then writing this string to the \textit{smartuavs.launch} file. 
 
+\newpage
 Inside this launch file a xarco file is passed as an argument for each \acs{uav}. 
 The xarco file, \textit{iris\_base.xarco}, that is passed is in the folder \textit{rotors\_description/urdf}. 
 The file takes two arguments, a \acs{tcp} and a \acs{udp} port. Giving each \acs{uav} different \acs{udp} and 
@@ -79,7 +80,6 @@ comes in the form of topics.
 A developer can choose multiple topics in Rviz to visualize. Rviz has the ability to visualize multiple topics at the same 
 time while maintaining high performance. 
 By viewing the standpoint from a robot debugging is made substantially easier for a developer \cite{ros:rviz}.
-
 
 Logging information is a crucial part of developing with \acs{ros}. Rosbags provide an easy way of logging information. 
 These files can be quite large so \acs{ros} provided a way of capturing only crucial data. 

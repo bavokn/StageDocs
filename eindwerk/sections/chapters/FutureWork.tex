@@ -12,22 +12,25 @@ When currently starting a swarm a lot of scripts have to be manually executed. O
 python. The python script should generate all the files needed and distrubute them over the docker containers using the overlay network. 
 The user would no longer execute every script on every worker, thus reducing the chances of failing.
 
-When running the docker swarm on a \acs{lan} connection it is possible it will fail. This is due to the fact that some ports refuse connection 
-from other machines. When this happens the system will throw a \textit{IOerror} in the controller container.
+When running the docker swarm on a \acs{lan} connection it may fail. This is because some ports refuse connection 
+from other machines. When this happens the system will throw an \textit{IOError} in the controller container.
 
 \subsubsection{Adding other components}
 
-Currently there are not a lot of addition components in the project. There is a possibility to add different components 
-using extra docker container or using the existing ones. One example of an extra component is the \acs{slam} 
-(Simultaneous localization and mapping) algorithm. It can be added using an extra container. The code to run this in a 
-multiprocess environement still has to be written.
+Currently, there are not a lot of additional components in the project. There is a possibility
+to add different components using extra docker containers or using the existing ones. One
+example of an extra component is the SLAM (Simultaneous localization and mapping)
+algorithm. It can be added using an extra container. The code to run this in a multiprocess
+environment still has to be written.
 
-When adding new components that need to be run in the swarm the name has to be justified has : \textit{workspace\_linkedvolumefoldername\_*}.
+When adding new components that need to be run in the swarm the name has to be justified as: \textit{workspace\_linkedvolumefoldername\_*}.
 It is very import that the linkedvolumefoldername is correct because the script \textit{0c\_generate\_ros\_config\_command.sh} splits this string and 
-takes the second argument to place the  \textit{set\_swarm\_settings.bash} on the correct place.
+takes the second argument to place the  \textit{set\_swarm\_settings.bash} in the correct folder.
 
 \subsubsection{Implementing a decision making model}
 
-An agent decides its task purely on what is available in its architecture. It can be optimized by implementing a decesion making 
-model in the multi-agent system. This would introduce a whole other concept on itself. The model would need training and testing for 
-different scenarios. When a good model is implemented it would yield far better results than the current decision making.
+An agent decides its task purely on what is available in its architecture. It can be optimized
+by implementing a decision-making model in the multi-agent system. This would introduce
+a whole other concept on itself. The model would need training and testing for different
+scenarios. When a good model is implemented it would yield far better results than the
+current decision making.

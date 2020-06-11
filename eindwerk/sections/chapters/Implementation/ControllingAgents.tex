@@ -5,13 +5,18 @@ a heartbeat must be made with each \acs{uav}
 that must be maintained throughout its flight. When a connection is lost, that specific \acs{uav} will 
 stop its current action and land on its home point.
 
-When a connection is established, a developer is able to arm the \acs{uav}. It is possible to visually 
+When a connection is established, a developer can arm the \acs{uav}. It is possible to visually 
 confirm that a \acs{uav} is armed when its rotors are spinning. 
 After arming a home point has to be set; this is a safe place where the \acs{uav} can land in case of 
 connection loss. When a \acs{uav} is armed and has a 
 home point, it is ready for further instructions. These agents fly autonomously. For a \acs{uav} to fly without 
 user input it has to be put into the “OFFBOARD” mode. 
-Finally, when a \acs{uav} is in this mode it can be added to a team, coalition, or hologenic hierarchy. 
-Depending on the hierarchy a \acs{uav} will take on an action 
-and help to try and solve the given problem.
+
+When in “OFFBOARD” mode, a \acs{uav} can receive \textit{positiontargets} messages. These are MAVROS messages that contain either 
+points, a velocity vector, or an acceleration vector. By default only points can be handled by a \acs{uav} and the rest of the 
+package will be ignored. MAVROS provided a mask inside the message to point out which vectors or points to ignore. Using the mask,
+a velocity vector or an acceleration vector can be used to steer.
+
+Finally, a \acs{uav} can be added to a team, coalition, or hologenic architecture. 
+Depending on the architecture a \acs{uav} will take on an action and help to try and solve the given problem.
 
